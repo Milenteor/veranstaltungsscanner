@@ -9,7 +9,7 @@
   var C = window.VS_CONFIG || {};
   window.VS_SELF = true;
   window.VS_TIME = C.scanTimeLabel || '9:30 Uhr';
-  var configured = !!(C.supabaseUrl && C.supabaseAnonKey && window.supabase && window.supabase.createClient);
+  var configured = !!(C.supabaseUrl && C.supabaseAnonKey && !/DEIN-/.test(C.supabaseUrl + C.supabaseAnonKey) && window.supabase && window.supabase.createClient);
   var sb = configured ? window.supabase.createClient(C.supabaseUrl, C.supabaseAnonKey, {
     auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false, storageKey: 'vs-auth' }
   }) : null;
