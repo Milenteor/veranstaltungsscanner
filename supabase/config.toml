@@ -1,0 +1,13 @@
+# Nur die Teile, die von den Standardwerten abweichen.
+project_id = "veranstaltungsscanner"
+
+# Alle Funktionen prüfen selbst, wer aufruft (Anmeldung und Mitgliedschaft oder CRON_SECRET).
+# Das Kalender-Abo muss ohne Anmeldung abrufbar sein, darum überall verify_jwt = false.
+[functions.ask]
+verify_jwt = false
+[functions.scan-now]
+verify_jwt = false
+[functions.fetch-link]
+verify_jwt = false
+[functions.ics]
+verify_jwt = false

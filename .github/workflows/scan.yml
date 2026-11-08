@@ -1,0 +1,61 @@
+name: Suchlauf
+
+on:
+  schedule:
+    # Zwei Startzeiten in UTC, damit es im Sommer und im Winter um 9:20 Uhr Wiener Zeit losgeht.
+    # Der Lauf um die falsche Stunde beendet sich sofort, ein zweiter Lauf am selben Tag sucht nicht noch einmal.
+    - cron: "20 7 * * *"
+    - cron: "20 8 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "auto, scan, pushtest, seed oder check"
+        required: false
+        default: "scan"
+      uid:
+        description: "nur für pushtest"
+        required: false
+        default: ""
+
+concurrency:
+  group: suchlauf
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  actions: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Zeitplan wach halten
+        # GitHub schaltet Zeitpläne in öffentlichen Repositories nach 60 Tagen ohne Aktivität ab.
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X PUT "repos/${{ github.repository }}/actions/workflows/scan.yml/enable" || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r pipeline/requirements.txt
+      - name: Lauf
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          APP_URL: ${{ vars.APP_URL }}
+          MODEL_MAIN: ${{ vars.MODEL_MAIN }}
+          MODE: ${{ github.event_name == 'schedule' && 'auto' || inputs.mode }}
+          TARGET_UID: ${{ inputs.uid }}
+        run: |
+          case "$MODE" in
+            auto|scan|seed|check) python3 pipeline/run.py "$MODE" ;;
+            pushtest) python3 pipeline/run.py pushtest --uid "$TARGET_UID" ;;
+            *) echo "Unbekannter Modus: $MODE"; exit 1 ;;
+          esac

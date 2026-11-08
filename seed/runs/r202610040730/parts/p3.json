@@ -1,0 +1,5933 @@
+{
+  "events": [
+    {
+      "anm": null,
+      "bz": "611",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sport",
+      "gem": "Leoben",
+      "gemHow": "ki",
+      "id": "mb4001199",
+      "km": 62.6,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Europagymnasium Leoben",
+      "reach": 300,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "politik"
+      ],
+      "s": "08:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leoben/c-sport/1-sponsored-walk-and-run-des-europagymnasiums-leoben_e4001199"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Das Europagymnasium Leoben veranstaltet erstmals einen Sponsored Walk & Run für einen guten Zweck. Austragungsort ist der Tivoli in Leoben, nähere Angaben zu Ablauf und Teilnahme liegen nicht vor.",
+      "title": "1. Sponsored Walk & Run des Europagymnasiums Leoben",
+      "topics": [
+        "bildung",
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "jugend"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "614",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Theater",
+      "gem": "Oberwölz",
+      "gemHow": "geonames",
+      "id": "mb3990376",
+      "km": 122.9,
+      "min": 95,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 54,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/murau/c-kinder-jugend/mentale-magie-fuer-die-ganze-familie_e3990376"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Abend mit Mentalmagie für die ganze Familie, zu dem die Stadtgemeinde Oberwölz einlädt. Auf der Bühne steht Mentalmagier Alex Ray, Ort ist ein Festsaal in Oberwölz.",
+      "title": "Mentale Magie für die ganze Familie",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Sankt Stefan ob Stainz",
+      "gemHow": "ki",
+      "id": "mb4000935",
+      "km": 32.5,
+      "min": 31,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-konzert-buehne-kino/folkart-trio-hupsala_e4000935"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Bei folk.art verbindet das Trio Hupsala mit Claudia Schwab, Johannes Bär und Vinzenz Härtel Jodelgesang, Geige, Steirische Harmonika, Alphorn, Tuba und Gitarre zu Musik von den Alpen bis nach Irland.",
+      "title": "folk.art: Trio Hupsala",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Stieglerhaus",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": "16:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Sankt Veit in der Südsteiermark",
+      "gemHow": "ki",
+      "id": "mb3993106",
+      "km": 51.8,
+      "min": 45,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 21,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "entlastung",
+        "energie",
+        "regionen"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/suedoststeiermark/c-workshop-seminar-infoveranstaltung/taste-the-gold-eine-genussvolle-entdeckungsreise-in-die-welt-der-bienen_e3993106"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Honigverkostung am Lorberhof von Imker Thomas Lorber, Obmann des Bienenzuchtvereins Mureck & Umgebung, mit regionalen Honigen, weiteren Bienenprodukten und Einblicken in die Natur des Biosphärenparks Unteres Murtal. Treffpunkt ist der Lorberhof in Perbersdorf, Dauer etwa zwei Stunden.",
+      "title": "\"Taste the Gold\" - Eine genussvolle Entdeckungsreise in die Welt der Bienen",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Lorberhof, Perbersdorf 13",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Stainach-Pürgg",
+      "gemHow": "ki",
+      "id": "mb3999147",
+      "km": 130.4,
+      "min": 98,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 90,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "entlastung",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-konzert-buehne-kino/a-tribute-to-cash-dylan-und-kristofferson_e3999147"
+        },
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-konzert-buehne-kino/im-ccw-stainach-a-tribute-to-cash-dylan-und-kristofferson_e3999909"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Der Grazer Sänger und Gitarrist Christian Masser und Kontrabassist Gerhard Steinrück spielen ausgewählte Country- und Folk-Songs aus dem Repertoire von Johnny Cash, Bob Dylan und Kris Kristofferson.",
+      "title": "A Tribute to Cash, Dylan & Kristofferson",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "CulturCentrum Wolkenstein (CCW)",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": "23:00",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Weiz",
+      "gemHow": "name",
+      "id": "mb4000455",
+      "km": 29,
+      "min": 37,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [],
+      "s": "20:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-konzert-buehne-kino/irish-music-live_e4000455"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Live-Abend mit irischer und schottischer Musik und Pubstimmung nach irischem Vorbild in Weiz. Nähere Angaben zu den Mitwirkenden und zum Veranstaltungsort liegen nicht vor.",
+      "title": "Irish Music LIVE",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-10-23",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Weiz",
+      "gemHow": "ki",
+      "id": "mb3999927",
+      "km": 29,
+      "min": 37,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Jugendhaus Weiz",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-kinder-jugend/schlag-das-jugendhaus-team_e3999927"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Jugendliche von 12 bis 21 Jahren treten im Jugendhaus Weiz in verschiedenen Herausforderungen gegen das Jugendhaus-Team an und zeigen, ob sie schneller, geschickter oder treffsicherer sind.",
+      "title": "Schlag das Jugendhaus-Team",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Jugendhaus Weiz",
+      "w": "lokal",
+      "zg": [
+        "jugend"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Messe",
+      "gem": "Aigen im Ennstal",
+      "gemHow": "ki",
+      "id": "mb4001760",
+      "km": 127.2,
+      "min": 97,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 3200,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "entlastung"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-workshop-seminar-infoveranstaltung/woll-aigen-im-ennstal_e4001760"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://woll-stoffmesse.at"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Dreitägige Woll- und Stoffmesse mit Wolle, Garnen, Stoffen sowie Näh- und Handarbeitszubehör zum Stöbern, Einkaufen und Mitmachen rund ums kreative Handarbeiten. Ort ist die Puttererseehalle in Aigen im Ennstal.",
+      "title": "Woll- & Stoffmesse ON TOUR – Aigen im Ennstal",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Puttererseehalle",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Bad Mitterndorf",
+      "gemHow": "ki",
+      "id": "mb3997854",
+      "km": 147.7,
+      "min": 112,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-konzert-buehne-kino/georg-neureiter-im-woferlstall-bad-mitterndorf_e3997854"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.eike-forum.at/veranstaltungen/blocker-konzert/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Der Fingerstyle-Gitarrist und Singer-Songwriter Georg Neureiter gibt ein Konzert mit Akustikgitarre und Stimme, das zwischen filigranen Melodien und treibenden, rhythmischen Elementen wechselt. Ort ist der Woferlstall in Bad Mitterndorf.",
+      "title": "Georg Neureiter im Woferlstall Bad Mitterndorf",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Woferlstall Bad Mitterndorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": "11:40",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001124",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "11:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-kinder-jugend/folkart-lara-loewin-kinderkonzert_e4001124"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Kinderkonzert im Rahmen von folk.art, bei dem die geigende Löwin Lara mit ihrer tierischen Band nach Klängen und Rhythmen aus verschiedenen Ländern und Kulturen sucht.",
+      "title": "folk.art: Lara Löwin - Kinderkonzert",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Die Brücke, soziokulturelles Zentrum",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Gröbming",
+      "gemHow": "ki",
+      "id": "mb3985331",
+      "km": 152.1,
+      "min": 116,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "gesundheit",
+        "kultur"
+      ],
+      "s": "20:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-konzert-buehne-kino/stiller-live-im-kino-groebming_e3985331"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Der am Mitterberg aufgewachsene Klaus Meissnitzer spielt mit seinem Projekt „Stiller“ persönliche Lieder zwischen Songwriting, Rock, Pop und psychedelischen Einflüssen, zur Einstimmung spielt „Hadimulli“. Ort ist das Kino Gröbming.",
+      "title": "\"Stiller\" live im Kino Gröbming",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Kino Gröbming",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "kapfenberg",
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": "20:30",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "x23e6b5a9",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "online": null,
+      "org": "Stadt Kapfenberg",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [],
+      "s": "15:00",
+      "src": [
+        {
+          "n": "Stadt Kapfenberg",
+          "u": "https://events.kapfenberg.at/events/eisdisco-3/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Eisdisco in der Stadthalle Kapfenberg, veranstaltet von der Stadt Kapfenberg. Nähere Angaben zu Programm, Musik und Zielgruppe liegen nicht vor.",
+      "title": "Eisdisco 2026",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Stadthalle Kapfenberg",
+      "w": "lokal",
+      "zg": [
+        "jugend",
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": "11:30",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3993954",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "09:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-kinder-jugend/papacaf-mit-richard-wagner_e3993954"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Papa*Café mit Richard Wagner für Papas und Opas, die sich in ungezwungener Atmosphäre austauschen, Kontakte knüpfen, spielen und bauen möchten. Eine Anmeldung ist nicht erforderlich, Ort ist das ISGS Kapfenberg.",
+      "title": "Papa*Café mit Richard Wagner",
+      "topics": [
+        "bildung"
+      ],
+      "venue": "ISGS Drehscheibe",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": "20:00",
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3988802",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "energie",
+        "regionen"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-workshop-seminar-infoveranstaltung/systemische-familienaufstellung_e3988802"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Systemische Familienaufstellung mit drei Aufstellungen pro Termin, die nach eigener Beschreibung alte Verstrickungen und Muster lösen sollen. Teilnahme als Aufstellende oder Darstellende möglich, vegetarische Verpflegung ist inbegriffen.",
+      "title": "Systemische Familienaufstellung",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Gute Geschichte, Verein für unsere lebenswerte Stadt",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": "12:00",
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Schladming",
+      "gemHow": "ki",
+      "id": "mb3978532",
+      "km": 169.4,
+      "min": 131,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Begabungsakademie Steiermark",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "bildung",
+        "energie",
+        "regionen",
+        "innovation"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-kinder-jugend/talente-samstage-junge-forscher-und-entdecker-sind-gefragt_e3978532"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.begabungsakademie.at"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Bei den Talente-Samstagen der Begabungsakademie Steiermark dreht sich in Schladming alles um Chemie: Dreistündige naturwissenschaftliche Kurse richten sich an junge Forschende, Anfänger ebenso wie Fortgeschrittene.",
+      "title": "Talente-Samstage: Junge Forscher und Entdecker sind gefragt",
+      "topics": [
+        "bildung",
+        "innovation"
+      ],
+      "venue": "Volksschule Schladming",
+      "w": "lokal",
+      "zg": [
+        "jugend"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-10-24",
+      "d2": null,
+      "e": "18:00",
+      "fl": {},
+      "format": "Fest",
+      "gem": "Wies",
+      "gemHow": "ki",
+      "id": "mb3973968",
+      "km": 57.1,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Weingut Jöbstl",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-brauchtum-kultur/juhunkertage_e3973968"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Das Weingut Jöbstl feiert bei den Juhunkertagen am Hof den Beginn der neuen Weinsaison mit frisch abgefülltem weißem Junker und Schilcher sowie steirischem Fingerfood. Ergänzt wird das zweitägige Fest durch eine literarische Lesung.",
+      "title": "Juhunkertage",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Weingut Schilcherei Jöbstl",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-10-25",
+      "d2": null,
+      "e": "18:00",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3999774",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "bildung",
+        "entlastung",
+        "kultur"
+      ],
+      "s": "16:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-literatur-buch/oesterreich-liest-2026-das-gezaehmte-kind-autorinlesung-und-musik_e3999774"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Autorinlesung mit Musik unter dem Titel „Das gezähmte Kind“: Im Rahmen von „Österreich liest“ und der Reihe Women Empowerment gibt Irmi Horn in einer Kurzgeschichte heimatbezogene Einblicke in das vergangene Jahrhundert.",
+      "title": "Österreich liest 2026: DAS GEZÄHMTE KIND. Autorinlesung & Musik.",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "kunstGarten",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "623",
+      "d": "2026-10-25",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Mettersdorf am Saßbach",
+      "gemHow": "ki",
+      "id": "mb3992296",
+      "km": 57.7,
+      "min": 50,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "FC Erdbewegung Büchsenmeister",
+      "reach": 21,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "politik"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leibnitz/c-sonstiges/preisschnapsen-des-fc-erdbewegung-buechsenmeister_e3992296"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Preisschnapsen des FC Erdbewegung Büchsenmeister in Mettersdorf am Saßbach, bei dem beim Kartenspiel Schnapsen um Preise gespielt wird. Nähere Angaben zu Ort und Ablauf liegen nicht vor.",
+      "title": "Preisschnapsen des FC Erdbewegung Büchsenmeister",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Mettersdorf 46",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-25",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Sankt Lorenzen im Mürztal",
+      "gemHow": "name",
+      "id": "m0096226f",
+      "km": 66.2,
+      "min": 56,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in St. Lorenzen im Mürztal, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in St. Lorenzen im Mürztal",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "St. Lorenzen im Mürztal",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-25",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Stanz im Mürztal",
+      "gemHow": "name",
+      "id": "m16b4b9e8",
+      "km": 75.3,
+      "min": 64,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Stanz im Mürztal, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Stanz im Mürztal",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Stanz im Mürztal",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-10-25",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Weiz",
+      "gemHow": "ki",
+      "id": "mb3993298",
+      "km": 29,
+      "min": 37,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "17:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-konzert-buehne-kino/15-jahre-vocalix-chorkonzert-in-der-aula-der-ms-weiz_e3993298"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Der Chor Vocalix feiert sein 15-jähriges Bestehen mit einem Chorkonzert unter der Leitung von Andreas Schinnerl, Gäste sind das Ensemble Zirbenklang und die Singgemeinschaft Landscha/Thannhausen. Es moderiert Karl Lenz, Ort ist die Aula der MS Weiz.",
+      "title": "15 Jahre Vocalix - Chorkonzert in der Aula der MS Weiz",
+      "topics": [
+        "kultur",
+        "regionen"
+      ],
+      "venue": "Aula der Mittelschule Offenburger Gasse",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-10-25",
+      "d2": null,
+      "e": "20:00",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Wies",
+      "gemHow": "ki",
+      "id": "mb3973947",
+      "km": 57.1,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Weingut Jöbstl",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-literatur-buch/herbstlese-junkerlese_e3973947"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Literarischer Nachmittag des Weinguts Jöbstl im Rahmen der Junkertage, der Verkostung und literarische Beiträge rund um Wein, Genuss und Lebensfreude verbindet.",
+      "title": "HERBST:LESE / JUNKER:LESE",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Weingut Schilcherei Jöbstl",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-26",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sport",
+      "gem": "Krieglach",
+      "gemHow": "ki",
+      "id": "mb4001085",
+      "km": 81.8,
+      "min": 65,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Marktgemeinde Krieglach",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "energie",
+        "regionen",
+        "kultur"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-sport/11-krieglacher-familienwandertag_e4001085"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Die Marktgemeinde Krieglach lädt Wanderfreunde und Familien zum 11. Familienwandertag durch die herbstliche Landschaft rund um Krieglach ein, mit Bewegung und Naturerlebnis für Jung und Alt. Start ist beim Gemeindeamt.",
+      "title": "11. Krieglacher Familienwandertag",
+      "topics": [
+        "kultur",
+        "regionen"
+      ],
+      "venue": "Gemeindeamt Krieglach",
+      "w": "lokal",
+      "zg": [
+        "familien",
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-10-26",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Pölfing-Brunn",
+      "gemHow": "name",
+      "id": "m430b0385",
+      "km": 55.4,
+      "min": 51,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Pölfing – Brunn, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Pölfing – Brunn",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Pölfing – Brunn",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-10-26",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Sankt Stefan ob Stainz",
+      "gemHow": "ki",
+      "id": "mb4001277",
+      "km": 32.5,
+      "min": 31,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "bildung",
+        "entlastung",
+        "regionen"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-kulinarik/genussschilchern-kulinarischer-familienwandertag-am-26102026-zum-saisonabschluss_e4001277"
+        },
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-kulinarik/genussschilchern-kulinarischer-familienwandertag-zum-saisonabschluss_e4001292"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Kulinarischer Familienwandertag zum Saisonabschluss von „GenussSchilchern“, bei dem zum 15. Mal von Genussbetrieb zu Genussbetrieb gewandert und verkostet wird. Zur Wahl stehen zwei Runden von etwa 8 bis 12 km, Treffpunkt ist der Schilcherlandparkplatz gegenüber dem Schulzentrum.",
+      "title": "\"GenussSchilchern\" Kulinarischer Familienwandertag am 26.10.2026 zum Saisonabschluss",
+      "topics": [
+        "kultur",
+        "regionen"
+      ],
+      "venue": "Schilcherlandparkplatz gegenüber dem Schulzentrum",
+      "w": "lokal",
+      "zg": [
+        "familien",
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "611",
+      "d": "2026-10-26",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sport",
+      "gem": "Trofaiach",
+      "gemHow": "ki",
+      "id": "mb3996765",
+      "km": 62.5,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Stadtgemeinde Trofaiach",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "gesundheit",
+        "energie",
+        "regionen"
+      ],
+      "s": "09:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leoben/c-gesundheit/fitmarsch-der-stadtgemeinde-trofaiach_e3996765"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Die Stadtgemeinde Trofaiach lädt zu einem gemeinsamen Fitmarsch in geselliger Atmosphäre ein, bei dem Bewegung, Gesundheit und Naturerlebnis im Mittelpunkt stehen. Start ist am Vorplatz der Mehrzweckhalle Trofaiach.",
+      "title": "Fitmarsch der Stadtgemeinde Trofaiach",
+      "topics": [
+        "gesundheit",
+        "regionen"
+      ],
+      "venue": "Vorplatz der Mehrzweckhalle Trofaiach",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-27",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Bruck an der Mur",
+      "gemHow": "name",
+      "id": "m9badf01b",
+      "km": 56.9,
+      "min": 54,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 2000,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Bruck an der Mur, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Bruck an der Mur",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Bruck an der Mur",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "611",
+      "d": "2026-10-27",
+      "d2": null,
+      "e": "19:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Leoben",
+      "gemHow": "ki",
+      "id": "mb3997137",
+      "km": 62.6,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Blutspendedienst",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "bildung"
+      ],
+      "s": "11:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leoben/c-gesundheit/blutspende-aktion_e3997137"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Blutspendeaktion des Blutspendedienstes des Roten Kreuzes Steiermark zur Sicherung der regionalen Versorgung mit Blutkonserven. Gespendet wird an der Montanuniversität Leoben in der Franz-Josef-Straße 18.",
+      "title": "Blutspende-Aktion",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Montanuniversität Leoben, Franz-Josef-Straße 18",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-10-27",
+      "d2": null,
+      "e": "17:00",
+      "fl": {},
+      "format": "Fest",
+      "gem": "Weiz",
+      "gemHow": "ki",
+      "id": "mb3999918",
+      "km": 29,
+      "min": 37,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 600,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-kinder-jugend/halloween-special-im-jugendhaus-weiz_e3999918"
+        },
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-kinder-jugend/kiddies-day-halloween-party-im-jugendhaus-weiz_e3999930"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Unter dem Titel „Halloween-Special: Kiddies-Day-Edition“ bietet das Jugendhaus Weiz Kindern von 9 bis 12 Jahren an zwei Nachmittagen ein Halloween-Programm, das mit einer Kiddies-Halloween-Party beginnt.",
+      "title": "Halloween-Special im Jugendhaus Weiz",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Jugendhaus Weiz",
+      "w": "lokal",
+      "zg": [
+        "jugend"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "622",
+      "d": "2026-10-28",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Fürstenfeld",
+      "gemHow": "name",
+      "id": "mdd6d0f7d",
+      "km": 63.5,
+      "min": 49,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 1200,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Fürstenfeld, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Fürstenfeld",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Fürstenfeld",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "623",
+      "d": "2026-10-28",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Mureck",
+      "gemHow": "name",
+      "id": "m40058f29",
+      "km": 61.4,
+      "min": 50,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Mureck, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Mureck",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Mureck",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "611",
+      "d": "2026-10-28",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Trofaiach",
+      "gemHow": "ki",
+      "id": "mb3996771",
+      "km": 62.5,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "18:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leoben/c-konzert-buehne-kino/filmvorfuehrung-das-lied-des-weissen-zombie-mit-live-kinoerzaehler-ralph-turnheim_e3996771"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Filmvorführung von „Das Lied des weißen Zombie“, die Kinoerzähler Ralph Turnheim live mit Erzählungen, lyrischen Texten und wienerischem Humor begleitet. Ort ist die Simon Mühle in Trofaiach, Karten gibt es in der Stadtbücherei.",
+      "title": "Filmvorführung „Das Lied des weißen Zombie“ mit Live-Kinoerzähler Ralph Turnheim",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Simon Mühle",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": "12:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Bruck an der Mur",
+      "gemHow": "ki",
+      "id": "mb3997593",
+      "km": 56.9,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Polizei",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-sonstiges/coffee-with-cops-in-bruck-an-der-mur_e3997593"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Die Polizei lädt im Rahmen der Initiative „Gemeinsam sicher“ in Bruck an der Mur zu „Coffee with Cops“ ein, um in ungezwungener Atmosphäre mit der Bevölkerung ins Gespräch zu kommen und Anliegen aufzunehmen.",
+      "title": "Coffee with Cops in Bruck an der Mur",
+      "topics": [
+        "politik",
+        "regionen"
+      ],
+      "venue": "Spar",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Bruck an der Mur",
+      "gemHow": "ki",
+      "id": "mb3988901",
+      "km": 56.9,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Stadtbücherei Bruck an der Mur",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "17:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-literatur-buch/stadtbuecherei-gute-nacht-geschichten-mit-wilma-der-waschbaerin_e3988901"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Die Stadtbücherei Bruck an der Mur lädt zu Gute-Nacht-Geschichten mit Wilma der Waschbärin ein. Die Lesung gehört zur Reihe der Gute-Nacht-Geschichten im Jahreskreis.",
+      "title": "Stadtbücherei: Gute Nacht Geschichten mit Wilma der Waschbärin",
+      "topics": [
+        "bildung",
+        "kultur"
+      ],
+      "venue": "Stadtbücherei Bruck an der Mur",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "606",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Feldkirchen bei Graz",
+      "gemHow": "ki",
+      "id": "mb4001127",
+      "km": 7.8,
+      "min": 16,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz-umgebung/c-konzert-buehne-kino/folkart-shaari-ensemble-und-claudio-spieler_e4001127"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Im Rahmen von folk.art verbindet das Shaari Ensemble, bestehend aus Mutter, Vater und Sohn, gemeinsam mit World-Percussionist Claudio Spieler persische Tradition und globale Einflüsse mit Setar, Oud, Gitarre, Gesang und Percussion.",
+      "title": "folk.art: Shaari Ensemble & Claudio Spieler",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Pfarramt",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Krieglach",
+      "gemHow": "ki",
+      "id": "mb4001088",
+      "km": 81.8,
+      "min": 65,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Roseggerbund Waldheimat Krieglach",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "entlastung",
+        "energie",
+        "kultur"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-literatur-buch/lesung-150-jahre-heimgarten-peter-rosegger_e4001088"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Lesung des Roseggerbundes Waldheimat Krieglach zum 150-jährigen Bestehen der von Peter Rosegger gegründeten Zeitschrift „Heimgarten“, bei der Rosegger-Kenner Franz Gollner Einblicke in deren Geschichte und Bedeutung gibt. Ort ist der kleine Saal des VAZ Krieglach.",
+      "title": "Lesung „150 Jahre Heimgarten Peter Rosegger“",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Veranstaltungszentrum Krieglach, kleiner Saal",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Ragnitz",
+      "gemHow": "ki",
+      "id": "mb3456481",
+      "km": 44.5,
+      "min": 37,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 90,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leibnitz/c-brauchtum-kultur/saenger-und-musikantentreffen_e3456481"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Geselliger musikalischer Nachmittag in der monatlichen Reihe des Sänger- und Musikantentreffens, offen für Musizierende sowie Zuhörerinnen und Zuhörer. Treffpunkt ist der Forellenwirt Maurer in Gundersdorf.",
+      "title": "Sänger- und Musikantentreffen",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Forellenwirt Maurer, Gundersdorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Rottenmann",
+      "gemHow": "ki",
+      "id": "mb3997944",
+      "km": 110.8,
+      "min": 79,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Alpenverein Rottenmann",
+      "reach": 96,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-sport/bergsteiger-peter-habeler-zu-gast-in-rottenmann_e3997944"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag „Das Ziel ist der Gipfel“ über Expeditionen mit Reinhold Messner und Grenzerfahrungen jenseits von 8.000 Metern, gehalten vom Bergsteiger Peter Habeler auf Einladung des Alpenvereins Rottenmann. Der Abend findet im Volkshaus Rottenmann statt.",
+      "title": "Bergsteiger Peter Habeler zu Gast in Rottenmann",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Volkshaus Rottenmann",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-10-29",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Schladming",
+      "gemHow": "ki",
+      "id": "mb3985361",
+      "km": 169.4,
+      "min": 131,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-sonstiges/nepal-und-bhutan-mystische-koenigreiche-im-himalaya_e3985361"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag über Landschaften, Klöster und Menschen im ehemaligen Königreich Mustang und im Osten Nepals, über das Basislager des Mount Everest und über Bhutan. Es präsentiert der Abenteurer Helmut Pichler im Klang-Film-Theater Schladming.",
+      "title": "Nepal und Bhutan: mystische Königreiche im Himalaya",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Klang-Film-Theater Schladming",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-30",
+      "d2": null,
+      "e": "11:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Breitenau am Hochlantsch",
+      "gemHow": "ki",
+      "id": "mb3997602",
+      "km": 51.9,
+      "min": 47,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Polizei",
+      "reach": 21,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-sonstiges/coffee-with-cops-in-breitenau_e3997602"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Ungezwungener Austausch zwischen Bevölkerung und Polizei bei „Coffee with Cops“ im Rahmen der Initiative „Gemeinsam sicher“. Die Polizei beantwortet in Breitenau Fragen der Bürgerinnen und Bürger und nimmt ihre Anliegen auf.",
+      "title": "Coffee with Cops in Breitenau",
+      "topics": [
+        "politik",
+        "regionen"
+      ],
+      "venue": "Gemeindeamt Breitenau am Hochlantsch",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "616",
+      "d": "2026-10-30",
+      "d2": null,
+      "e": "21:00",
+      "fl": {},
+      "format": "Info-Abend",
+      "gem": "Bärnbach",
+      "gemHow": "ki",
+      "id": "mb3994266",
+      "km": 47.5,
+      "min": 44,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 80,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "gesundheit",
+        "inklusion",
+        "kultur"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/voitsberg/c-workshop-seminar-infoveranstaltung/infotalk-und-ploetzlich-ist-nichts-mehr-wie-es-war_e3994266"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Infotalk über den Umgang mit Krankheit, Verlust und Trauer mit Trauerbegleiterin Eva Rieger, Margit Zach, Coach Julia Sommer, Gastwirt und Musiker Markus Kern sowie Initiatorin Kerstin Hausegger, die über ihre chronische Erkrankung berichtet.",
+      "title": "InfoTalk-Und plötzlich ist nichts mehr wie es war",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Landcafe Kern",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": "Anmeldung erforderlich (bis zwei Tage vorher)",
+      "bz": "623",
+      "d": "2026-10-30",
+      "d2": null,
+      "e": "16:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Deutsch Goritz",
+      "gemHow": "ki",
+      "id": "mb3993241",
+      "km": 68.7,
+      "min": 57,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 21,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "bildung",
+        "energie",
+        "regionen"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/suedoststeiermark/c-sonstiges/exkursion-vogel-und-pflanzenwelt-ratschendorf-jetzt-anmelden_e3993241"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Exkursion zur Vogel- und Pflanzenwelt in Ratschendorf gemeinsam mit einer studierten Biologin, geeignet für alle Altersgruppen, Hunde sind willkommen. Treffpunkt ist der Parkplatz bei der Teichhalle, eine Anmeldung ist verpflichtend.",
+      "title": "Exkursion Vogel- und Pflanzenwelt Ratschendorf – jetzt anmelden",
+      "topics": [
+        "energie"
+      ],
+      "venue": "Parkplatz bei der Teichhalle Ratschendorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "611",
+      "d": "2026-10-30",
+      "d2": null,
+      "e": "20:30",
+      "fl": {},
+      "format": "Ausstellung",
+      "gem": "Trofaiach",
+      "gemHow": "ki",
+      "id": "mb3996777",
+      "km": 62.5,
+      "min": 54,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Kuim Teifl und Schwoazmoar Bartl",
+      "reach": 120,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "10:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leoben/c-brauchtum-kultur/krampusausstellung-trofaiach_e3996777"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Maskenausstellung zum Krampusbrauchtum mit Einblicken in Vielfalt und Handwerkskunst traditionell gestalteter Masken, präsentiert von den Kuim Teifl und den Schwoazmoar Bartl. Ort ist die Mehrzweckhalle Trofaiach, zusätzlich gibt es eine Aftershow-Party.",
+      "title": "Krampusausstellung Trofaiach",
+      "topics": [
+        "kultur",
+        "regionen"
+      ],
+      "venue": "Mehrzweckhalle Trofaiach",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-10-31",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Theater",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001133",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 150,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "18:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-literatur-buch/folkart-wolfram-berger-und-jakob-noehrer_e4001133"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Literarisch-musikalischer Abend über Liebe, Vergänglichkeit und Abschied mit Texten von H.C. Artmann, Pablo Neruda, Erich Kästner, Ernst Jandl und anderen. Schauspieler Wolfram Berger erzählt und singt, begleitet von Akkordeonist Jakob Nöhrer, im Rahmen von folk.art.",
+      "title": "folk.art: Wolfram Berger & Jakob Nöhrer",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Die Brücke, soziokulturelles Zentrum",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "kapfenberg",
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-31",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Fest",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "x2f02f57b",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "online": null,
+      "org": "Stadt Kapfenberg",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "13:00",
+      "src": [
+        {
+          "n": "Stadt Kapfenberg",
+          "u": "https://events.kapfenberg.at/events/kinder-halloween-2026/"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Halloween-Fest für Kinder auf der Burg Oberkapfenberg, ausgerichtet von der Stadt Kapfenberg als Teil ihres städtischen Veranstaltungsprogramms. Für den Besuch ist ein Ticket erforderlich.",
+      "title": "Kinder Halloween 2026",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Burg Oberkapfenberg",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-31",
+      "d2": null,
+      "e": "18:00",
+      "fl": {},
+      "format": "Messe",
+      "gem": "Krieglach",
+      "gemHow": "ki",
+      "id": "mb4001091",
+      "km": 81.8,
+      "min": 65,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 2000,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "10:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-sonstiges/die-kunstmesse-krieglach-ist-kunst_e4001091"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Die Kunstmesse „Krieglach ist Kunst“ findet im VAZ Krieglach statt und ist an zwei aufeinanderfolgenden Tagen für Besucherinnen und Besucher geöffnet.",
+      "title": "Die Kunstmesse „Krieglach ist Kunst“",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-10-31",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Sankt Lorenzen im Mürztal",
+      "gemHow": "ki",
+      "id": "mb3997476",
+      "km": 66.2,
+      "min": 56,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "politik",
+        "kultur"
+      ],
+      "s": "14:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-kinder-jugend/halloweenkino-im-pfarrsaal_e3997476"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Halloweenkino mit altersgerechtem Filmprogramm im Pfarrsaal St. Lorenzen: Zuerst läuft ein Kinderfilm für Kinder bis 7 Jahre, danach ein Jugendfilm für Kinder und Jugendliche ab 8 Jahren.",
+      "title": "Halloweenkino im Pfarrsaal",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Pfarrsaal St. Lorenzen",
+      "w": "lokal",
+      "zg": [
+        "jugend",
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-10-31",
+      "d2": null,
+      "e": "16:30",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Sankt Stefan ob Stainz",
+      "gemHow": "ki",
+      "id": "mb3984257",
+      "km": 32.5,
+      "min": 31,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "12:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-brauchtum-kultur/junkerwanderung-im-schilcherland_e3984257"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Rund fünf Kilometer lange Wanderung durch die herbstlichen Weingärten im Schilcherland, von Junkerwinzer zu Junkerwinzer mit dem Junker des neuen Jahrgangs. Die Route führt vom Weingut Trapl über das Schilcherweingut Friedrich zum Weingut Langmann.",
+      "title": "Junkerwanderung im Schilcherland",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Weingut Trapl",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "606",
+      "d": "2026-11-01",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Eggersdorf bei Graz",
+      "gemHow": "prefix",
+      "id": "m47ec7ec8",
+      "km": 15.1,
+      "min": 21,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Eggersdorf, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Eggersdorf",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Eggersdorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-01",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4000884",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "17:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/cin-priv-filmkunst-in-november-im-kunstgarten_e4000884"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Ciné Privé zeigt im kunstGarten Graz ein Filmkunst-Programm über das Zusammenleben der Menschen, Konfliktsituationen, Not als Ursache von Revolten und Krieg sowie persönliche und gesellschaftliche Zwänge in einer bedrohten Natur.",
+      "title": "Ciné Privé: Filmkunst in NOVEMBER, im kunstGarten",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "kunstGarten",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "620",
+      "d": "2026-11-01",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Knittelfeld",
+      "gemHow": "ki",
+      "id": "mb4000452",
+      "km": 73,
+      "min": 59,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "innovation",
+        "kultur"
+      ],
+      "s": "11:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/murtal/c-kinder-jugend/lebendige-dinosaurier-show-2026-in-knittelfeld_e4000452"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Show mit Dinosauriern, die mit Animatronic-Technik und aufwendigen Kostümen dargestellt werden; ein Paläontologe vermittelt dabei kindgerecht Wissenswertes über Leben und Ernährung der Urzeitriesen. Ort ist das Kultur- und Kongresshaus Knittelfeld.",
+      "title": "Lebendige Dinosaurier Show 2026 in Knittelfeld",
+      "topics": [
+        "kultur",
+        "bildung"
+      ],
+      "venue": "Kultur- und Kongresshaus Knittelfeld",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-01",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Sankt Veit in der Südsteiermark",
+      "gemHow": "none",
+      "id": "m254f296a",
+      "km": 51.8,
+      "min": 45,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in St. Veit am Vogau, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in St. Veit am Vogau",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "St. Veit am Vogau",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-11-02",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Deutschlandsberg",
+      "gemHow": "name",
+      "id": "maaaab2b0",
+      "km": 45.5,
+      "min": 42,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 1200,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Deutschlandsberg, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Deutschlandsberg",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Deutschlandsberg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "620",
+      "d": "2026-11-02",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Pölstal",
+      "gemHow": "name",
+      "id": "mb8863031",
+      "km": 105.9,
+      "min": 83,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Pölstal, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Pölstal",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Pölstal",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "wko",
+      "anm": null,
+      "bz": null,
+      "d": "2026-11-03",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Kurs",
+      "gem": null,
+      "gemHow": "none",
+      "id": "x445f809f",
+      "km": null,
+      "min": null,
+      "modus": "online",
+      "online": null,
+      "org": "WKO Steiermark",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "entlastung"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "WKO Steiermark",
+          "u": "https://www.wko.at/veranstaltungen/9f38c80c-6436-4011-891c-eb29af756ee5"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Seminar zu steuerlichen Themen mit Peter Krasser als Vortragendem, angeboten von der Wirtschaftskammer Steiermark im Rahmen ihres Veranstaltungsprogramms.",
+      "title": "309 Steuerseminar mit Peter Krasser",
+      "topics": [
+        "entlastung"
+      ],
+      "venue": "Online",
+      "w": "land",
+      "zg": [
+        "unternehmen"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-03",
+      "d2": null,
+      "e": "20:30",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3984221",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "MeinMed.at",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "gesundheit",
+        "energie",
+        "regionen"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-gesundheit/gratis-vortrag-das-mikrobiom-wie-die-unsichtbaren-mitbewohner-unsere-gesundheit-beeinflussen_e3984221"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.meinmed.at/veranstaltung/das-mikrobiom-wie-die-unsichtbaren-mitbewohner-unsere-gesundheit-beeinflussen-2026-11-03/2981"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag von MeinMed.at über das Darm-Mikrobiom, seinen Einfluss auf Verdauung und Immunsystem sowie die Rolle von Ernährung, Bewegung, Stress, Schlaf, Medikamenten und probiotischen Lebensmitteln. Der Eintritt ist frei.",
+      "title": "Gratis Vortrag: Das Mikrobiom: Wie die unsichtbaren Mitbewohner unsere Gesundheit beeinflussen",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Medizinische Universität Graz",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-03",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3997665",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "innovation",
+        "kultur"
+      ],
+      "s": "20:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/wladigeroff-brothers-ft-boki-radenkovi_e3997665"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert mit Balkanmelodien, Jazz, Funk und Swing in der Reihe ALL That JAZZ, gespielt von den bulgarischen Zwillingsbrüdern Alexander und Konstantin Wladigeroff mit Boki Radenković als Gast.",
+      "title": "Wladigeroff Brothers ft. Boki Radenković",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Schauspielhaus Graz",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "616",
+      "d": "2026-11-03",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Ligist",
+      "gemHow": "name",
+      "id": "m04a90f74",
+      "km": 39.3,
+      "min": 33,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Ligist, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Ligist",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Ligist",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-03",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Wagna",
+      "gemHow": "name",
+      "id": "mb4000926",
+      "km": 45.5,
+      "min": 40,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "politik",
+        "regionen"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leibnitz/c-workshop-seminar-infoveranstaltung/barackengespraeche-der-vortrag-macht-politik-politik-macht_e4000926"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag „Macht Politik Politik Macht“ im Rahmen der Veranstaltungsreihe „Barackengespräche“, die in der Lagerbaracke Wagna stattfindet.",
+      "title": "„Barackengespräche“ der Vortrag „Macht Politik Politik Macht“",
+      "topics": [
+        "politik"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-04",
+      "d2": null,
+      "e": "21:00",
+      "fl": {},
+      "format": "Fest",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3504316",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 1800,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "17:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-kulinarik/steirische-junkerpraesentation-graz-2026_e3504316"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://steiermark.wine/event/junkerpraesentation-graz-2026/"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Brauchtumsfest rund um Wein, Gamsbart und Steirerhut, bei dem Junker-Winzerinnen und -Winzer gemeinsam mit Besucherinnen und Besuchern den neuen Steirischen Junker feiern. Ort ist die Grazer Stadthalle.",
+      "title": "Steirische Junkerpräsentation Graz 2026",
+      "topics": [
+        "kultur",
+        "entlastung"
+      ],
+      "venue": "Stadthalle Graz",
+      "w": "land",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-04",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001160",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-dalum-sophie-abraham_e4001160"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art: Das koreanische Duo Dal:um mit Ha Suyean und Hwang Hyeyoung spielt auf den Zithern Gayageum und Geomungo Musik zwischen Minimalismus, experimentellem Folk und abstraktem Jazz, außerdem tritt Sophie Abraham auf.",
+      "title": "folk.art: Dal:um | Sophie Abraham",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Heimatsaal im Volkskundemuseum",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-04",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001157",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-literatur-buch/folkart-lesung-worte-fuer-alle-lebenslagen_e4001157"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Lesung „Worte für alle Lebenslagen“ im Rahmen von folk.art, die sich dem Thema Fest des Lebens widmet: den kleinen Momenten, Begegnungen und Stationen, aus denen sich ein Leben zusammensetzt.",
+      "title": "folk.art: Lesung \"Worte für alle Lebenslagen\"",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Omas Teekanne",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-04",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001163",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "politik",
+        "regionen",
+        "innovation",
+        "kultur"
+      ],
+      "s": "17:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-pavel-shalman-und-boki-radenkovic_e4001163"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art mit Musik aus dem Album „On the Other Side of the Danube“, in der Pavel Shalman und Boki Radenkovic Einflüsse aus Balkan, Osteuropa, Lateinamerika, Klezmer, Tango und Klassik verbinden.",
+      "title": "folk.art: Pavel Shalman & Boki Radenkovic",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Murinsel Graz",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": "16:45",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3997050",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-kinder-jugend/familienkonzert-triolino-floeten-flausen_e3997050"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Familienkonzert „Triolino“ mit dem Flötenquartett Flûtes à Fleurs und Jasmin Steffl in der Rolle der Triolino, unter der Regie von Benedikt Arnold. Das Programm richtet sich an Familien mit Kindern.",
+      "title": "Familienkonzert: Triolino – Flöten-Flausen",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Oper Graz",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001166",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "entlastung",
+        "kultur"
+      ],
+      "s": "17:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-workshop-seminar-infoveranstaltung/folkart-und-weltweitwandern-montenegro-zu-fuss-erkunden_e4001166"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Gespräch im Rahmen von folk.art über Wandern in Montenegro und den 2.000 Kilometer langen Fernwanderweg Via Dinarica, mit Weltweitwandern-Gründer Christian Hlade und der in Montenegro lebenden Reiseexpertin Angelika Temper.",
+      "title": "folk.art & Weltweitwandern: Montenegro zu Fuß erkunden",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Heimatsaal im Volkskundemuseum",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001172",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "energie",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-baba-yaga-und-sko_e4001172"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art mit SKO und der Weltmusikformation Baba Yaga, deren fünf Musikerinnen und Musiker aus drei Ländern osteuropäische Klänge, Klezmer, Balkanbeats und Gypsy Jazz verbinden.",
+      "title": "folk.art: Baba Yaga & SKO",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Dom im Berg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": "13:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3981896",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "politik",
+        "inklusion"
+      ],
+      "s": "11:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-workshop-seminar-infoveranstaltung/behindertenberatung-von-a-bis-z_e3981896"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Beratungssprechtag im KOBV-Büro Kapfenberg zu Fragen rund um Behinderung, Beruf, soziale Leistungen und Alltag. Das Angebot richtet sich an Menschen mit Behinderungen im Alter von 15 bis 65 Jahren und ihre Angehörigen.",
+      "title": "Behindertenberatung von A bis Z",
+      "topics": [
+        "inklusion"
+      ],
+      "venue": "KOBV-Büro Kapfenberg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": "19:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3982163",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Krebsselbsthilfe Kapfenberg",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "gesundheit"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-gesundheit/gespraechsrunde-der-krebsselbsthilfe-kapfenberg_e3982163"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Gesprächsrunde der Krebsselbsthilfe Kapfenberg, in der Betroffene und Angehörige in geschütztem Rahmen Erfahrungen austauschen, Fragen stellen und Informationen einholen können. Treffpunkt ist das ISGS in der Grazer Straße 3.",
+      "title": "Gesprächsrunde der Krebsselbsthilfe Kapfenberg",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "ISGS, Grazer Straße 3",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": "Teilnahme kostenlos, Anmeldung möglich",
+      "bz": "621",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": "19:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3993535",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "gesundheit"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-sonstiges/krebs-selbsthilfegruppe_e3993535"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Monatliches Treffen der Krebs-Selbsthilfegruppe unter der Leitung von Barbara Rathgeb, das Betroffenen und Angehörigen Raum für Austausch und gegenseitige Unterstützung bietet. Treffpunkt ist das ISGS Kapfenberg, die Teilnahme ist kostenlos.",
+      "title": "Krebs-Selbsthilfegruppe",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "ISGS Drehscheibe Kapfenberg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-05",
+      "d2": null,
+      "e": "17:00",
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Weiz",
+      "gemHow": "ki",
+      "id": "mb3973074",
+      "km": 29,
+      "min": 37,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "innovation"
+      ],
+      "s": "15:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-kinder-jugend/kinder-atelier-im-atelier-aurora_e3973074"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Kreativnachmittag, bei dem Kinder zwischen 6 und 12 Jahren unter Anleitung mit Ton arbeiten und Mal- und Drucktechniken ausprobieren. Ort ist das Atelier Aurora in der Kapfensteinergasse 9 in Weiz.",
+      "title": "Kinder-Atelier im Atelier Aurora",
+      "topics": [
+        "kultur",
+        "bildung"
+      ],
+      "venue": "Atelier Aurora, Kapfensteinergasse 9",
+      "w": "lokal",
+      "zg": [
+        "jugend"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Fest",
+      "gem": "Bad Mitterndorf",
+      "gemHow": "ki",
+      "id": "mb3988922",
+      "km": 147.7,
+      "min": 112,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Betreiber der Disco Take Five",
+      "reach": 600,
+      "reg": "https://shop.mtms.at/organizer/binna-event-management/tickets/the-return-of-die-grossen-10",
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": "21:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-sonstiges/die-grossen-10-kult-partynacht-kehrt-zurueck_e3988922"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Partynacht „Die großen 10“ mit Moderator Udo Huber in der Disco Take Five, bei der die Band „7 for 80s“ Hits der 80er-Jahre live spielt. Veranstalter sind die Betreiber der Disco.",
+      "title": "\"Die großen 10\": Kult-Partynacht kehrt zurück",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Disco Take Five",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "623",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Feldbach",
+      "gemHow": "name",
+      "id": "mdd71be92",
+      "km": 53.9,
+      "min": 49,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 2000,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Feldbach, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Feldbach",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Feldbach",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Frauental an der Laßnitz",
+      "gemHow": "ki",
+      "id": "mb3978797",
+      "km": 43.6,
+      "min": 42,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "entlastung",
+        "kultur"
+      ],
+      "s": "20:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-konzert-buehne-kino/konzert-christian-masserspecial-guest-michi-lauterbrunner_e3978797"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert mit Country, Folk und Mississippi-Blues des Grazer Sängers und Gitarristen Christian Masser, als Gast singt Michi Lauterbrunner. Karten und Informationen gibt es über die bluegarage.",
+      "title": "Konzert Christian Masser/special guest Michi Lauterbrunner",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "bluegarage",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": "21:00",
+      "fl": {},
+      "format": "Fest",
+      "gem": "Gleisdorf",
+      "gemHow": "ki",
+      "id": "mb3979784",
+      "km": 29.4,
+      "min": 26,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 600,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-sonstiges/gleisdorfer-einkaufsnacht_e3979784"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Einkaufsnacht in der Gleisdorfer Innenstadt mit Angeboten der Geschäfte, Tanzauftritten, dem Einzug des Faschingsvereins am Hauptplatz und einer Feuershow. In der Bürgergasse gibt es kostenloses Popcorn.",
+      "title": "Gleisdorfer Einkaufsnacht",
+      "topics": [
+        "entlastung",
+        "regionen"
+      ],
+      "venue": "Innenstadt Gleisdorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": "21:30",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3390414",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "17:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-ball-fest/contra-folk-dance-social_e3390414"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://contradance.at/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Abend mit traditionellem Contratanz aus New England zu live gespielter Fiddlemusik aus den Appalachen, offen für alle. Alle Tänze werden erklärt und angesagt, Vorkenntnisse sind nicht nötig, Ort ist die Heilandskirche.",
+      "title": "Contra Folk Dance Social",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Heilandskirche laut Text, Ortsangabe Leonhardplatz 14",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3993205",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 400,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/gitte-haenning-mit-band-in-der-komoedie-graz_e3993205"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert von Gitte Haenning mit Band im Rahmen ihrer Jubiläumstour zum 80. Geburtstag, die sie durch Deutschland, Skandinavien, die Schweiz und Österreich führt. Ort ist die Komödie Graz.",
+      "title": "Gitte Haenning mit Band in der Komödie Graz",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Komödie Graz",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001175",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-avin-ahmadi_e4001175"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Solokonzert im Rahmen von folk.art: Die in Wien lebende iranische Oud-Spielerin, Sängerin und Improvisatorin Avin Ahmadi stellt ihr Projekt „Qayeq“ vor, das persische Wurzeln mit Einflüssen aus dem Jazz verbindet.",
+      "title": "folk.art: Avin Ahmadi",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Reyhani GmbH",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001178",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-floating-sofa-quartet_e4001178"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art mit dem Floating Sofa Quartet, vier jungen Musikerinnen und Musikern aus Schweden, Finnland und Dänemark, die mit Geige, Akkordeon, Flöte und Gitarre nordische Folkmusik spielen.",
+      "title": "folk.art: Floating Sofa Quartet",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Heimatsaal im Volkskundemuseum",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": "14:00",
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3993442",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "bildung",
+        "regionen"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-workshop-seminar-infoveranstaltung/schulung-trittsicher-schulung-fuer-multiplikatorinnen_e3993442"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Schulung „Trittsicher & aktiv“ zur Sturzvermeidung und wirksamen Prävention für Personen, die ältere Menschen beruflich, ehrenamtlich oder privat begleiten. Ziel ist, Sicherheit und Selbstständigkeit älterer Menschen zu fördern; Ort ist das ISGS Kapfenberg.",
+      "title": "Schulung „Trittsicher & aktiv – Schulung für Multiplikator:innen“",
+      "topics": [
+        "gesundheit",
+        "inklusion"
+      ],
+      "venue": "ISGS Drehscheibe Kapfenberg",
+      "w": "lokal",
+      "zg": [
+        "fach",
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "620",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Knittelfeld",
+      "gemHow": "name",
+      "id": "m906d11e2",
+      "km": 73,
+      "min": 59,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 2000,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Knittelfeld, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Knittelfeld",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Knittelfeld",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Messe",
+      "gem": "Mürzzuschlag",
+      "gemHow": "ki",
+      "id": "mb3979769",
+      "km": 93.5,
+      "min": 71,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 3200,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "energie",
+        "regionen",
+        "kultur"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-sonstiges/muerzer-messe-regional-+-woedklasse_e3979769"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Die Mürzer Messe unter dem Motto „regional + wödklasse“ zeigt nachhaltige Angebote und Produkte von Ausstellern aus der Region und darüber hinaus in Stadtsaal und Messezelt. Dazu kommen Street-Food-Market, Vergnügungspark, Pop-up-Markt und das Vortragsformat „News on Stage“.",
+      "title": "Mürzer Messe \"regional + wödklasse\"",
+      "topics": [
+        "entlastung",
+        "regionen"
+      ],
+      "venue": "Stadtsaal und Messezelt",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "tugraz",
+      "anm": null,
+      "bz": "622",
+      "d": "2026-11-06",
+      "d2": null,
+      "e": "21:15",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Pöllau",
+      "gemHow": "ki",
+      "id": "xd62f2404",
+      "km": 64.4,
+      "min": 57,
+      "modus": "praesenz",
+      "online": null,
+      "org": "TU Graz",
+      "reach": 96,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "innovation",
+        "kultur"
+      ],
+      "s": "19:15",
+      "src": [
+        {
+          "n": "TU Graz",
+          "u": "https://www.tugraz.at/news/tu-graz-events/eventdetails/article/pottlachers-5te-poellauer-experimentiervorlesung"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Die TU Graz lädt zur fünften Pöllauer Experimentiervorlesung von Gernot Pottlacher, der dafür erneut den Freskensaal von Schloss Pöllau in ein Labor verwandelt.",
+      "title": "Pottlacher´s 5te Pöllauer Experimentiervorlesung",
+      "topics": [
+        "innovation",
+        "bildung"
+      ],
+      "venue": "Freskensaal, Schloss Pöllau",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "ort": "Gemeinde nicht eindeutig"
+      },
+      "format": "Kurs",
+      "gem": null,
+      "gemHow": "none",
+      "id": "mb3935434",
+      "km": null,
+      "min": null,
+      "modus": "online",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "bildung"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-sonstiges/dipl-meisterkraeuterexpertein-neu-inkl-meisterkraeuter-fuer-kinder-online_e3935434"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.bablue.at/ausbildungen-fachbereiche/heilpflanzen-kraeuterkurse-tem/239/dipl-meisterkraeuterexperte-in-neu-inkl-meisterkraeuter-fuer-kinder-online/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Online-Expertenlehrgang mit Diplomabschluss zur Meisterkräutertherapie nach Wolfgang Schröder, die Wissen über europäische Wildkräuter und Heilpflanzen mit der Fünf-Elemente-Lehre der TCM verbindet. Neu im Lehrgang sind Meisterkräuter für Kinder.",
+      "title": "Dipl. Meisterkräuterexperte/in - (NEU inkl. Meisterkräuter für Kinder) - ONLINE",
+      "topics": [
+        "gesundheit",
+        "bildung"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "606",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": "11:00",
+      "fl": {
+        "ort": "Gemeinde nicht eindeutig"
+      },
+      "format": "Kurs",
+      "gem": null,
+      "gemHow": "none",
+      "id": "mb3999114",
+      "km": null,
+      "min": null,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "entlastung",
+        "energie"
+      ],
+      "s": "08:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz-umgebung/c-gesundheit/lerne-prana-energiearbeit-kennen_e3999114"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Einführung in die Prana-Energiearbeit für Interessierte ohne Vorwissen; die Methode soll laut Ankündigung komplementär bei körperlichen und psychischen Beschwerden unterstützen.",
+      "title": "Lerne Prana Energiearbeit kennen",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Ehrenhausen an der Weinstraße",
+      "gemHow": "ki",
+      "id": "mb3984554",
+      "km": 50.4,
+      "min": 40,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Kulturforum Ehrenhausen",
+      "reach": 90,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leibnitz/c-konzert-buehne-kino/klassik-konzertreihe-ehrenhausen-laedt-dich-zum-genuss-ein_e3984554"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://rauchc.jimdoweb.com/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert „Profundum Sonorum“ für Cello und Kontrabass mit Musik unter anderem von Giovanni Bottesini, Teil der Reihe „Ein Jahr voller Klassik 2“ des Kulturforums Ehrenhausen. Ort ist das Nannerl Gwölb der Erzherzog Johann Weine.",
+      "title": "Klassik-Konzertreihe Ehrenhausen lädt dich zum Genuss ein",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Nannerl Gwölb, Erzherzog Johann Weine",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": "17:00",
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3932089",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "entlastung",
+        "energie",
+        "innovation"
+      ],
+      "s": "09:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-workshop-seminar-infoveranstaltung/die-kraft-der-klopftechniken-einfuehrung-und-praxis_e3932089"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.bablue.at"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Tagesseminar mit Einführung und Praxis zu Klopftechniken, die durch sanfte Stimulation von Energiepunkten bei Stressbewältigung, emotionalen Blockaden und Resilienzförderung unterstützen sollen. Thema sind auch Selbsthilfe und Glaubenssatzarbeit.",
+      "title": "Die Kraft der Klopftechniken – Einführung & Praxis",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": "21:00",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3998877",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/interactive-classic-la-vie-en-rose_e3998877"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Abend mit Chansons und Tanzmusik in Erinnerung an Filmdiven der 1930er und 1940er Jahre wie Edith Piaf, Marlene Dietrich und Zarah Leander, darunter „La vie en rose“ und „Lili Marleen“. Durch den Abend führt Sängerin Darina Irmer.",
+      "title": "INTERACTIVE CLASSIC / La vie en rose",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Theaterhaus",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001190",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "entlastung",
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-cairo-steps_e4001190"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art mit dem international besetzten Ensemble Cairo Steps des ägyptischen Oud-Spielers Basem Darwisch, das orientalische Musik mit Oud, Nay und Percussion mit Jazz, Klassik und Improvisation verbindet.",
+      "title": "folk.art: Cairo Steps",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Heimatsaal im Volkskundemuseum",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Podium",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001187",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 120,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "17:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-workshop-seminar-infoveranstaltung/folkart-musik-gespraech-1-volksmusik-zwischen-austausch-und-kultureller-aneignung_e4001187"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Musikgespräch im Rahmen von folk.art, in dem Musikerinnen, Musiker und Forschende über Volksmusik zwischen kulturellem Austausch und Aneignung diskutieren, über Machtverhältnisse, Identität und den respektvollen Umgang mit musikalischem Kulturerbe.",
+      "title": "folk.art: Musik-Gespräch #1 \"Volksmusik zwischen Austausch und kultureller Aneignung\"",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Volkskundemuseum am Paulustor",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001184",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "gesundheit",
+        "entlastung",
+        "politik"
+      ],
+      "s": "13:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-brauchtum-kultur/folkart-stadtrundgang-mensch-sein-in-graz-gestern-und-heute_e4001184"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Stadtrundgang im Rahmen von folk.art zu Lebensstationen wie Geburt, Kindheit, Liebe, Arbeit und Abschied, denen anhand von Straßen, Plätzen und Häusern in Graz von der Jungsteinzeit bis heute nachgegangen wird.",
+      "title": "folk.art: Stadtrundgang \"Mensch sein in Graz - gestern und heute\"",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Karmeliterplatz",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Kindberg",
+      "gemHow": "ki",
+      "id": "mb4001379",
+      "km": 71.2,
+      "min": 59,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "innovation",
+        "kultur"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-konzert-buehne-kino/the-strings-rocken-muerzhofen_e4001379"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Rock'n'Roll-Abend zum Tanzen mit der Band The Strings, die erneut im Eventstadl Mürzhofen oberhalb von Zinki's Jausnbrettl auftritt. Eingeladen sind Freunde des Rock'n'Roll und Tanzfreudige.",
+      "title": "The Strings rocken Mürzhofen",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Eventstadl Mürzhofen",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Fest",
+      "gem": "Stainz",
+      "gemHow": "ki",
+      "id": "mb3984239",
+      "km": 34.1,
+      "min": 33,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 960,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-ball-fest/junkerfest-im-schloss-stainz_e3984239"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Junkerfest, bei dem rund 20 Junkerwinzer aus der Süd- und Weststeiermark den neuen Jahrgang zur Verkostung anbieten, mit regionaler Kulinarik und musikalischer Unterhaltung. Schauplatz sind das Refektorium und der alte Schlosskeller von Schloss Stainz.",
+      "title": "Junkerfest im Schloss Stainz",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Schloss Stainz",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Theater",
+      "gem": "Thannhausen",
+      "gemHow": "ki",
+      "id": "mb3999369",
+      "km": 34.5,
+      "min": 44,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 54,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-konzert-buehne-kino/kabarettabend-mit-andreas-schlintl-und-seinem-programm-auf-dem-weg-zu-mir_e3999369"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Kabarettabend mit Andreas Schlintl und seinem Programm „Auf dem Weg zu mir“ mit humorvollen Beobachtungen, persönlichen Geschichten und pointierten Alltagsbetrachtungen. Ort ist das Gemeindezentrum Thannhausen, Karten gibt es im Gemeindeamt und über Ö-Ticket.",
+      "title": "Kabarettabend mit Andreas Schlintl und seinem Programm „Auf dem Weg zu mir“",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Gemeindezentrum Thannhausen",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": "11:00",
+      "fl": {},
+      "format": "Markt",
+      "gem": "Thannhausen",
+      "gemHow": "ki",
+      "id": "mb3999120",
+      "km": 34.5,
+      "min": 44,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 288,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen",
+        "kultur"
+      ],
+      "s": "08:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-markt-basar/regional-genuss-markt-in-thannhausen_e3999120"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Monatlicher Markt „regional genuss“ im Gemeindezentrum Thannhausen mit regionalem Genussangebot; Speisen gibt es dort auch zum Mitnehmen.",
+      "title": "regional genuss Markt in Thannhausen",
+      "topics": [
+        "kultur",
+        "regionen"
+      ],
+      "venue": "Gemeindezentrum Thannhausen",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-07",
+      "d2": null,
+      "e": "12:00",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Thörl",
+      "gemHow": "ki",
+      "id": "mb4000050",
+      "km": 74.3,
+      "min": 66,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 21,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "08:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-sonstiges/feuerloescherueberpruefung-im-ruesthaus-thoerl_e4000050"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Die Freiwillige Feuerwehr Thörl lädt zur regelmäßigen Feuerlöscherüberprüfung ins Rüsthaus ein, wo Fachleute die Geräte kontrollieren.",
+      "title": "Feuerlöscherüberprüfung im Rüsthaus Thörl",
+      "topics": [
+        "regionen"
+      ],
+      "venue": "Rüsthaus Thörl",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "622",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Bad Waltersdorf",
+      "gemHow": "name",
+      "id": "m4d7eda00",
+      "km": 62.3,
+      "min": 46,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Bad Waltersdorf, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Bad Waltersdorf",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Bad Waltersdorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001616",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-aniada-a-noar-und-brina-duo_e4001616"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art: Aniada a Noar setzen ihre musikalischen Streifzüge fort und führen diesmal zu den slowenischen Nachbarn, außerdem spielt das Brina Duo.",
+      "title": "folk.art: Aniada a Noar & Brina Duo",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Podium",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001607",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 120,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "17:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-workshop-seminar-infoveranstaltung/folkart-musik-gespraech-2-wem-gehoert-die-volksmusik_e4001607"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Musikgespräch im Rahmen von folk.art zur Frage „Wem gehört die Volksmusik?“: Es geht darum, wer bestimmt, was echte Volksmusik ist, und welche Rolle sie für Erinnerung, Gemeinschaft und Heimat spielt.",
+      "title": "folk.art: Musik-Gespräch #2 \"Wem gehört die Volksmusik?\"",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001589",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [],
+      "s": "11:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/folkart-quartett-potzmann-fruhwirth_e4001589"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert im Rahmen von folk.art mit dem Quartett Potzmann // Fruhwirth, das sich zwischen Bergluft und Jazzclub auf traditionellen wie eigenständigen musikalischen Wegen bewegt.",
+      "title": "folk.art: Quartett Potzmann // Fruhwirth",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb4001625",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "15:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-workshop-seminar-infoveranstaltung/folkart-workshop-bulgarischer-tanz_e4001625"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Einstündiger Workshop im Rahmen von folk.art, der Interessierten einen praktischen Einstieg in den traditionellen bulgarischen Tanz und damit in die Tanzkultur Bulgariens bietet.",
+      "title": "folk.art: Workshop \"Bulgarischer Tanz\"",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Fest",
+      "gem": "Heimschuh",
+      "gemHow": "ki",
+      "id": "mb3994680",
+      "km": 48.8,
+      "min": 43,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Heimschuher Königsbergteifl",
+      "reach": 960,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leibnitz/c-brauchtum-kultur/grosser-krampuslauf-der-heimschuher-koenigsbergteifl_e3994680"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Großer Krampuslauf der Heimschuher Königsbergteifl, bei dem über 20 Krampusgruppen mit Masken, Kostümen und Glocken auftreten. Ort ist die Schutzengelhalle Heimschuh, zusätzlich legt ein DJ auf.",
+      "title": "Großer Krampuslauf der Heimschuher Königsbergteifl",
+      "topics": [
+        "kultur",
+        "regionen"
+      ],
+      "venue": "Schutzengelhalle Heimschuh",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Schwarzautal",
+      "gemHow": "none",
+      "id": "m0f1d97c6",
+      "km": 49.7,
+      "min": 42,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Wolfsberg im Schwarzautal, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Wolfsberg im Schwarzautal",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Wolfsberg im Schwarzautal",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "622",
+      "d": "2026-11-08",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Waldbach-Mönichwald",
+      "gemHow": "name",
+      "id": "maf59915b",
+      "km": 102.4,
+      "min": 87,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Waldbach-Mönichwald, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Waldbach-Mönichwald",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Waldbach-Mönichwald",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "humantechnology",
+      "anm": null,
+      "bz": null,
+      "d": "2026-11-09",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "ort": "Ort in der Quelle nicht genannt"
+      },
+      "format": "Fachveranstaltung",
+      "gem": null,
+      "gemHow": "none",
+      "id": "x6752354c",
+      "km": null,
+      "min": null,
+      "modus": "praesenz",
+      "online": null,
+      "org": "human.technology Styria",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "entlastung",
+        "regionen",
+        "innovation"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "human.technology Styria",
+          "u": "https://www.humantechnology.at/event/hr-circle-leading-the-ai-workforce-transformation/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Austauschtreffen im clusterübergreifenden Format HR Circle von human.technology Styria für Personalverantwortliche in der Steiermark, diesmal zum Thema Führung im KI-bedingten Wandel der Arbeitswelt („Leading the AI Workforce Transformation“).",
+      "title": "HR Circle: AI-H.A.B.I.T.s – Leading the AI Workforce Transformation",
+      "topics": [
+        "entlastung",
+        "innovation"
+      ],
+      "venue": "",
+      "w": "land",
+      "zg": [
+        "unternehmen"
+      ]
+    },
+    {
+      "_srckey": "tugraz",
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-09",
+      "d2": "2026-11-13",
+      "e": "18:00",
+      "fl": {
+        "datum": "Quellen nennen verschiedene Termine: 09.11. und 10.11."
+      },
+      "format": "Fachveranstaltung",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "x2a13e566",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "online": null,
+      "org": "acib GmbH",
+      "reach": 300,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "energie",
+        "innovation"
+      ],
+      "s": "12:00",
+      "src": [
+        {
+          "n": "TU Graz",
+          "u": "https://www.tugraz.at/news/tu-graz-events/eventdetails/article/european-summit-of-industrial-biotechnology-esib"
+        },
+        {
+          "n": "human.technology Styria",
+          "u": "https://www.humantechnology.at/event/esib-2026-european-summit-of-industrial-biotechnology/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Mehrtägige Fachkonferenz European Summit of Industrial Biotechnology (esib) in Graz zur industriellen Biotechnologie, organisiert von der acib GmbH.",
+      "title": "European Summit of Industrial Biotechnology (esib)",
+      "topics": [
+        "innovation",
+        "entlastung"
+      ],
+      "venue": "",
+      "w": "land",
+      "zg": [
+        "fach",
+        "unternehmen"
+      ]
+    },
+    {
+      "_srckey": "tugraz",
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-09",
+      "d2": null,
+      "e": "17:30",
+      "fl": {},
+      "format": "Info-Abend",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "x179f43ae",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "online": null,
+      "org": "TU Graz",
+      "reach": 80,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "entlastung"
+      ],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "TU Graz",
+          "u": "https://www.tugraz.at/news/tu-graz-events/eventdetails/article/masters-of-ip-campus-edition"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Informationsveranstaltung der TU Graz zu Strategien für geistiges Eigentum (Intellectual Property), die sich unter anderem an Gründungsinteressierte und Personen auf der Suche nach der passenden IP-Strategie richtet.",
+      "title": "Masters of IP: Campus Edition",
+      "topics": [
+        "innovation"
+      ],
+      "venue": "TU Graz",
+      "w": "lokal",
+      "zg": [
+        "fach"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-10",
+      "d2": null,
+      "e": "20:00",
+      "fl": {},
+      "format": "Messe",
+      "gem": "Gleisdorf",
+      "gemHow": "ki",
+      "id": "mb3965919",
+      "km": 29.4,
+      "min": 26,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 3200,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "bildung",
+        "regionen"
+      ],
+      "s": "17:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/weiz/c-workshop-seminar-infoveranstaltung/b-bom26-bildungs-und-berufsorientierungsmesse-in-gleisdorf_e3965919"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://b-bom.eu/aktuelle-messe"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Bildungs- und Berufsorientierungsmesse im forumKLOSTER Gleisdorf, bei der sich Jugendliche nach der Pflichtschule kompakt über weitere Bildungs- und Berufswege informieren und persönlich beraten lassen können.",
+      "title": "B-BOM26 ~ Bildungs- und Berufsorientierungsmesse in Gleisdorf",
+      "topics": [
+        "bildung",
+        "entlastung"
+      ],
+      "venue": "forumKLOSTER",
+      "w": "region",
+      "zg": [
+        "jugend"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-11",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Bruck an der Mur",
+      "gemHow": "name",
+      "id": "ma0a4525d",
+      "km": 56.9,
+      "min": 54,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 2000,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Bruck an der Mur, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Bruck an der Mur",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Bruck an der Mur",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-11",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Gleisdorf",
+      "gemHow": "name",
+      "id": "ma3be9f2a",
+      "km": 29.4,
+      "min": 26,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 2000,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Gleisdorf, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Gleisdorf",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Gleisdorf",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-11-11",
+      "d2": null,
+      "e": "16:50",
+      "fl": {},
+      "format": "Fachveranstaltung",
+      "gem": "Irdning-Donnersbachtal",
+      "gemHow": "ki",
+      "id": "mb3996552",
+      "km": 138.1,
+      "min": 106,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 300,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "gesundheit",
+        "entlastung",
+        "energie"
+      ],
+      "s": "08:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-workshop-seminar-infoveranstaltung/bio-fachtagung-stallbau-und-tierwohl-in-der-bio-tierhaltung_e3996552"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.raumberg-gumpenstein.at"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Österreichische Fachtagung für Biologische Landwirtschaft an der HBLFA Raumberg-Gumpenstein zu Stallbau und Tierwohl, mit Themen von Tiergesundheit in Kälberaufzucht und Milchviehhaltung über Liegeboxen und Fütterung bis zu Weidehaltung und kuhgebundener Kälberaufzucht.",
+      "title": "Bio-Fachtagung: \"Stallbau und Tierwohl in der Bio-Tierhaltung\"",
+      "topics": [
+        "innovation"
+      ],
+      "venue": "HBLFA Raumberg-Gumpenstein",
+      "w": "land",
+      "zg": [
+        "fach",
+        "unternehmen"
+      ]
+    },
+    {
+      "anm": "Teilnahme kostenlos, Anmeldung vorgesehen",
+      "bz": "621",
+      "d": "2026-11-11",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3993526",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "16:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-sonstiges/spielenachmittag-zeit-fuer-spass-und-gute-gesellschaft_e3993526"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Spielenachmittag mit Karten-, Brett- und Würfelspielen im ISGS Kapfenberg, der Gelegenheit bietet, in gemütlicher Atmosphäre Zeit mit anderen zu verbringen und Kontakte zu knüpfen. Die Teilnahme ist kostenlos, eine Anmeldung ist möglich.",
+      "title": "Spielenachmittag „Zeit für Spaß und gute Gesellschaft“",
+      "topics": [
+        "inklusion"
+      ],
+      "venue": "ISGS Drehscheibe Kapfenberg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-11",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Leibnitz",
+      "gemHow": "name",
+      "id": "md5edeaa3",
+      "km": 43.9,
+      "min": 38,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 2000,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Leibnitz, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Leibnitz",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Leibnitz",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-11-11",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Rottenmann",
+      "gemHow": "name",
+      "id": "ma00ffe35",
+      "km": 110.8,
+      "min": 79,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Rottenmann, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Rottenmann",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Rottenmann",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-11-12",
+      "d2": null,
+      "e": "21:45",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Gröbming",
+      "gemHow": "ki",
+      "id": "mb3994647",
+      "km": 152.1,
+      "min": 116,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "energie",
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-konzert-buehne-kino/sattelfest-mountainbiken-ueber-den-daechern-der-welt-live-vortrag_e3994647"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Live-Vortrag in Gröbming über Mountainbike-Touren zu hohen Bergen der Welt: Gerhard berichtet von Fahrten am Mount Kenya und Kilimandscharo, zu heiligen Vulkanen der Atacama-Wüste in Chile und zum K2 in Pakistan.",
+      "title": "Sattelfest - Mountainbiken über den Dächern der Welt, Live Vortrag",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Kino Gröbming",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "612",
+      "d": "2026-11-13",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Sankt Gallen",
+      "gemHow": "ki",
+      "id": "mb3984008",
+      "km": 132,
+      "min": 106,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 90,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "politik",
+        "kultur"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/liezen/c-konzert-buehne-kino/irish-folk-konzert-in-der-steiermark_e3984008"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.spinningwheel.at"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert mit dem Programm „Scealta“ (gälisch für „Geschichten“) der österreichischen Celtic-Folk-Band Spinning Wheel, mit traditionellen Melodien und Liedern aus Irland, Schottland, Wales und Asturien.",
+      "title": "Irish Folk Konzert in der Steiermark!",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Gasthof Hensle",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "611",
+      "d": "2026-11-13",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Sankt Michael in Obersteiermark",
+      "gemHow": "ki",
+      "id": "mb3916877",
+      "km": 52.3,
+      "min": 45,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Thomas Doppelreiter",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leoben/c-brauchtum-kultur/denkbar-pub-quiz_e3916877"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Monatliches Pub Quiz in der denkBAR mit Fragen, die Wissen und Humor fordern, gestaltet und moderiert von Thomas Doppelreiter. Gespielt wird in Teams von zwei bis vier Personen.",
+      "title": "denkBAR Pub Quiz",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Der Eberhard (denkBAR)",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-11-13",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Theater",
+      "gem": "Wies",
+      "gemHow": "ki",
+      "id": "mb3973950",
+      "km": 57.1,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 150,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "energie",
+        "regionen",
+        "kultur"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/deutschlandsberg/c-konzert-buehne-kino/musikkabarett-die-taktlosen-die-kunst-des-suderns_e3973950"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Musikkabarett „Die Kunst des Suderns“ der Gruppe Die Taktlosen, die das Raunzen musikalisch und mit schwarzem Humor auf die Bühne bringen. Ort ist die Weinbar des Weinguts Jöbstl.",
+      "title": "MUSIKKABARETT: Die Taktlosen - Die Kunst des SUDERNS",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Weingut Schilcherei Jöbstl, Weinbar",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-14",
+      "d2": null,
+      "e": "16:15",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3997044",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "15:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-kinder-jugend/mit-baby-ins-konzert-giocoso-celloquartett_e3997044"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert des Giocoso Celloquartetts mit Werken unter anderem von George Gershwin, Antonín Dvořák und Johann Strauss (Sohn), speziell konzipiert für junge Eltern und Bezugspersonen, die ihr Baby mitbringen.",
+      "title": "Mit Baby ins Konzert: Giocoso Celloquartett",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Oper Graz",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "623",
+      "d": "2026-11-16",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Bad Radkersburg",
+      "gemHow": "name",
+      "id": "m8cce58b8",
+      "km": 82.7,
+      "min": 71,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Bad Radkersburg, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Bad Radkersburg",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Bad Radkersburg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "humantechnology",
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-16",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Fachveranstaltung",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "xb88f72bf",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "online": null,
+      "org": "human.technology Styria",
+      "reach": 160,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "inklusion",
+        "innovation"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "human.technology Styria",
+          "u": "https://www.humantechnology.at/event/bits-and-bytes-das-krankenhaus-der-zukunft/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Kongress „Bits & Bytes“ zum Krankenhaus der Zukunft, bei dem sich Fachleute, internationale Anbieter und Forschende über Möglichkeiten und Grenzen von KI und ihre Integration in den klinischen Alltag austauschen. Veranstalter ist human.technology Styria.",
+      "title": "Bits and Bytes - das Krankenhaus der Zukunft",
+      "topics": [
+        "gesundheit",
+        "innovation"
+      ],
+      "venue": "",
+      "w": "region",
+      "zg": [
+        "fach"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "620",
+      "d": "2026-11-17",
+      "d2": null,
+      "e": "20:30",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Knittelfeld",
+      "gemHow": "ki",
+      "id": "mb3984245",
+      "km": 73,
+      "min": 59,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "MeinMed.at",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "bildung",
+        "gesundheit",
+        "regionen"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/murtal/c-gesundheit/gratis-vortrag-warum-sind-kinder-so-oft-krank_e3984245"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://www.meinmed.at/veranstaltung/warum-sind-kinder-so-oft-krank-2026-11-17/2982"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag von MeinMed.at für Eltern und Großeltern darüber, warum Kinder so häufig krank sind, welche Infektionen im Kindesalter verbreitet sind und wann Grund zur Sorge besteht. Der Eintritt ist frei.",
+      "title": "Gratis Vortrag: Warum sind Kinder so oft krank?",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Kultur- und Kongresshaus Knittelfeld",
+      "w": "lokal",
+      "zg": [
+        "familien"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "620",
+      "d": "2026-11-17",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Kobenz",
+      "gemHow": "ki",
+      "id": "mb3993478",
+      "km": 68.2,
+      "min": 56,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 21,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "19:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/murtal/c-literatur-buch/lesungs-mpoh-im-ekiz-aichfeld_e3993478"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Lesungs- und Begegnungsabend, bei dem Tatjana Rapp-Galímpoh ihr Buch „Mit dem Herzen sehen“ präsentiert und von ihrem persönlichen Weg sowie einem bewussten, achtsamen Leben erzählt. Ort ist das EKiZ Aichfeld.",
+      "title": "Lesungs- & Begegnungsabend mit Tatjana Rapp-Galímpoh im EKiZ Aichfeld",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "EKiZ Aichfeld",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "_srckey": "humantechnology",
+      "anm": null,
+      "bz": null,
+      "d": "2026-11-18",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "ort": "Ort in der Quelle nicht genannt"
+      },
+      "format": "Fachveranstaltung",
+      "gem": null,
+      "gemHow": "none",
+      "id": "x96aaa773",
+      "km": null,
+      "min": null,
+      "modus": "praesenz",
+      "online": null,
+      "org": "SFG gemeinsam mit JOANNEUM RESEARCH",
+      "reach": 300,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [],
+      "s": null,
+      "src": [
+        {
+          "n": "human.technology Styria",
+          "u": "https://www.humantechnology.at/event/zukunftstag-2025-2/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Zukunftstag von SFG und JOANNEUM RESEARCH unter dem Motto „Let's Transform“ zur Fähigkeit von Organisationen und Regionen, gesellschaftliche, technologische und wirtschaftliche Veränderungen aktiv zu gestalten.",
+      "title": "ZUKUNFTSTAG 2026",
+      "topics": [
+        "innovation",
+        "entlastung"
+      ],
+      "venue": "",
+      "w": "land",
+      "zg": [
+        "unternehmen",
+        "fach"
+      ]
+    },
+    {
+      "_srckey": "tugraz",
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-18",
+      "d2": null,
+      "e": "21:00",
+      "fl": {},
+      "format": "Vortrag",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "x4c061f44",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "online": null,
+      "org": "TU Graz",
+      "reach": 60,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "energie",
+        "innovation"
+      ],
+      "s": "18:30",
+      "src": [
+        {
+          "n": "TU Graz",
+          "u": "https://www.tugraz.at/news/tu-graz-events/eventdetails/article/womencareer-9-rassa-seyedi-authenticity-is-the-superpower"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag in der Reihe WomenCareer der TU Graz mit Rassa Seyedi, die an der TU Graz Technische Chemie studierte und in Biotechnologie promovierte, zum Thema Authentizität als Superkraft.",
+      "title": "WomenCareer #9 - Rassa Seyedi: Authenticity is the superpower",
+      "topics": [
+        "bildung",
+        "innovation"
+      ],
+      "venue": "",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-11-19",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Eibiswald",
+      "gemHow": "name",
+      "id": "m6c007e19",
+      "km": 62.2,
+      "min": 58,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Eibiswald, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Eibiswald",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Eibiswald",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-19",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Theater",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3995973",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "The Pennyless Players",
+      "reach": 150,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": "20:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/fish-smoking-cigarettes-five-absurdist-plays_e3995973"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Theaterproduktion „Fish Smoking Cigarettes“ der Pennyless Players mit fünf absurden Kurzstücken, aufgeteilt auf zwei Programme, darunter „The Zoo Story“ von Edward Albee und „Unveiling“ von Václav Havel.",
+      "title": "Fish Smoking Cigarettes - Five Absurdist Plays",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Café Stockwerk",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "606",
+      "d": "2026-11-19",
+      "d2": null,
+      "e": "22:00",
+      "fl": {},
+      "format": "Podium",
+      "gem": "Premstätten",
+      "gemHow": "ki",
+      "id": "mb4001826",
+      "km": 19.3,
+      "min": 21,
+      "modus": "praesenz",
+      "online": null,
+      "org": "",
+      "reach": 192,
+      "reg": null,
+      "rel": "hoch",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz-umgebung/c-workshop-seminar-infoveranstaltung/mit-bus-und-bahn-raus-ins-grazer-umland-vortrag-und-podiumsdiskussion_e4001826"
+        },
+        {
+          "n": "Veranstalter-Seite",
+          "u": "https://nachhaltiginpremstaetten.at/"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Vortrag mit Podiumsdiskussion in der Bibliothek Premstätten darüber, wie sich die Steiermark ohne Auto mit Bus und Bahn erwandern lässt und wie das in der Praxis im Grazer Umland funktioniert.",
+      "title": "\"Mit Bus und Bahn raus ins Grazer Umland\" - Vortrag & Podiumsdiskussion",
+      "topics": [
+        "energie",
+        "regionen"
+      ],
+      "venue": "Bibliothek Premstätten, Schulstraße 6",
+      "w": "region",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "603",
+      "d": "2026-11-19",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Wettmannstätten",
+      "gemHow": "name",
+      "id": "m5f9bd583",
+      "km": 40.2,
+      "min": 36,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Wettmannstätten, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Wettmannstätten",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Wettmannstätten",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "601",
+      "d": "2026-11-20",
+      "d2": null,
+      "e": "20:00",
+      "fl": {},
+      "format": "Konzert",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3996051",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 250,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "18:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-konzert-buehne-kino/vento-sul_e3996051"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Konzert der österreichischen Sambapercussion-Band Vento Sul, die mit bis zu 20 Spielerinnen und Spielern aus Graz und Wien afro-brasilianische Musik mit akustischen Beats für Groß und Klein spielt.",
+      "title": "Vento Sul",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Waldorfschule Karl Schubert Graz",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-20",
+      "d2": null,
+      "e": "11:30",
+      "fl": {},
+      "format": "Kurs",
+      "gem": "Kapfenberg",
+      "gemHow": "ki",
+      "id": "mb3993445",
+      "km": 62.2,
+      "min": 52,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Community Nurses Kapfenberg",
+      "reach": 20,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "gesundheit",
+        "regionen"
+      ],
+      "s": "10:00",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/bruck-an-der-mur/c-workshop-seminar-infoveranstaltung/veranstaltungsreihe-bewegte-gespraeche-fuer-anfaenger_e3993445"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Walking-Runde der Community Nurses Kapfenberg für Anfängerinnen und Anfänger, bei der unterwegs verschiedene Gesundheitsthemen besprochen werden. Eine Anmeldung ist nötig, der genaue Treffpunkt wird danach bekannt gegeben.",
+      "title": "Veranstaltungsreihe „Bewegte Gespräche“ für Anfänger",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Kapfenberg",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-20",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Theater",
+      "gem": "Wagna",
+      "gemHow": "ki",
+      "id": "mb3487033",
+      "km": 45.5,
+      "min": 40,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "",
+      "reach": 150,
+      "reg": "https://wagna.fairticket.at/",
+      "rel": "mittel",
+      "ruleTopics": [
+        "kultur"
+      ],
+      "s": "19:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/leibnitz/c-konzert-buehne-kino/gregor-seberg-schatzkiste_e3487033"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Kabarettprogramm „Schatzkiste“ von Gregor Seberg, der darin gerne improvisiert, sodass jedes Publikum einen eigenen Abend erlebt. Mit dabei ist auch seine Figur Gérard, die als Franzose über die Liebe spricht.",
+      "title": "Gregor Seberg – „Schatzkiste“",
+      "topics": [
+        "kultur"
+      ],
+      "venue": "Josef-Baumann-Saal",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "610",
+      "d": "2026-11-21",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Arnfels",
+      "gemHow": "name",
+      "id": "ma322ef64",
+      "km": 59.6,
+      "min": 52,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 300,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Arnfels, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Arnfels",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Arnfels",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": "Anmeldung bis 10. November",
+      "bz": "601",
+      "d": "2026-11-21",
+      "d2": null,
+      "e": "14:30",
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Graz",
+      "gemHow": "ki",
+      "id": "mb3994890",
+      "km": 1.6,
+      "min": 4,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Selbsthilfegruppe Glaukom Graz",
+      "reach": 60,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "inklusion"
+      ],
+      "s": "12:30",
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/graz/c-gesundheit/erfahrungsaustauschtreffen_e3994890"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Erfahrungsaustausch der Selbsthilfegruppe Glaukom Graz zu Augentropfen, Hilfsmitteln und Nahrungsergänzungsmitteln, mit dem Aufklärungsfilm „Wie tropfe ich richtig“. Ort ist die Selbsthilfe Steiermark in der Lauzilgasse 25, barrierefrei erreichbar; Anmeldung erforderlich.",
+      "title": "Erfahrungsaustauschtreffen",
+      "topics": [
+        "gesundheit"
+      ],
+      "venue": "Selbsthilfe Steiermark, Lauzilgasse 25",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "622",
+      "d": "2026-11-21",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Pöllau",
+      "gemHow": "name",
+      "id": "mcd97f69c",
+      "km": 64.4,
+      "min": 57,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 1200,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Pöllau, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Pöllau",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Pöllau",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "617",
+      "d": "2026-11-21",
+      "d2": null,
+      "e": null,
+      "fl": {
+        "zeit": "Uhrzeit laut Marktkalender nicht angegeben"
+      },
+      "format": "Markt",
+      "gem": "Sinabelkirchen",
+      "gemHow": "name",
+      "id": "mec1fff22",
+      "km": 38.6,
+      "min": 33,
+      "modus": "praesenz",
+      "online": null,
+      "org": "laut Steirischem Marktkalender",
+      "reach": 600,
+      "reg": null,
+      "rel": "mittel",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "Steirischer Marktkalender (WKO)",
+          "u": "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"
+        }
+      ],
+      "stand": "anfragen",
+      "sum": "Jahr- oder Krämermarkt in Sinabelkirchen, eingetragen im Steirischen Marktkalender 2026 der Wirtschaftskammer. Uhrzeit und Standplatz nennt der Kalender nicht; die Gemeinde gibt Auskunft.",
+      "title": "Markttag in Sinabelkirchen",
+      "topics": [
+        "regionen",
+        "entlastung"
+      ],
+      "venue": "Sinabelkirchen",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    },
+    {
+      "anm": null,
+      "bz": "621",
+      "d": "2026-11-21",
+      "d2": null,
+      "e": null,
+      "fl": {},
+      "format": "Sonstiges",
+      "gem": "Turnau",
+      "gemHow": "ki",
+      "id": "mb3983525",
+      "km": 77.4,
+      "min": 65,
+      "modus": "praesenz",
+      "nsrc": 1,
+      "online": null,
+      "org": "Göriacher Dorfgemeinschaft",
+      "reach": 21,
+      "reg": null,
+      "rel": "niedrig",
+      "ruleTopics": [
+        "regionen"
+      ],
+      "s": null,
+      "src": [
+        {
+          "n": "meinbezirk.at",
+          "u": "https://www.meinbezirk.at/event/muerztal/c-brauchtum-kultur/fackelwanderung-goeriach_e3983525"
+        }
+      ],
+      "stand": "unueblich",
+      "sum": "Fackelwanderung in Göriach, einem Ortsteil der Gemeinde Turnau, organisiert von der Göriacher Dorfgemeinschaft.",
+      "title": "Fackelwanderung Göriach",
+      "topics": [
+        "regionen"
+      ],
+      "venue": "Göriach",
+      "w": "lokal",
+      "zg": [
+        "allgemein"
+      ]
+    }
+  ],
+  "i": 3,
+  "runId": "r202610040730"
+}

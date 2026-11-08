@@ -1,0 +1,232 @@
+{
+  "hashes": {
+    "greentech": "db544e4e82fd05a48c81405cbb921510bf1b2be9",
+    "greentech2": "9cf3945941ff971cc53de0de309468fda9c560a2",
+    "humantechnology": "927eeab755ce121fb16792be1b8c119808107ceb",
+    "humantechnology2": "ac7c4e1503f1fa4898442ec66c983c82876672dd",
+    "kapfenberg": "5de544fef9499b78320637ab1aa268cf4a83f71d",
+    "leoben": "be0e3b0fb78284b347822c63b9eca394cfae74ed",
+    "liezen": "708c2ac1f9ffa47bdb74fe13b867a8e816e5bd4b",
+    "tugraz": "e39bc0278101449ddd2a53d170c6096fcbf1b06f",
+    "unigraz": "a9b73a49a78320dfe48f6fde3a9ce3125a899ef5",
+    "weiz": "0c99c52777776f3d8b8e80a321588cec882f698d",
+    "wko": "ad77769260711315af3ab900ae9952cc10513ab2"
+  },
+  "label": "4.10.2026, 8:57 Uhr",
+  "log": {
+    "fehler": [],
+    "korrekturen": [
+      [
+        "Medical Science Talks 2026",
+        "Graz",
+        "laut humantechnology.at: Graz, 13. und 14.10.2026"
+      ],
+      [
+        "Bits and Bytes - das Krankenhaus der Zukunft",
+        "Graz",
+        "laut humantechnology.at: Campus Med Uni Graz, 16. und 17.11.2026"
+      ],
+      [
+        "Medical Science Talks 2026",
+        "Graz",
+        "laut humantechnology.at: Graz, 13. und 14.10.2026"
+      ],
+      [
+        "Bits and Bytes - das Krankenhaus der Zukunft",
+        "Graz",
+        "laut humantechnology.at: Campus Med Uni Graz, 16. und 17.11.2026"
+      ]
+    ],
+    "qa": {
+      "anm_text": 14,
+      "chapman": {
+        "m": 0,
+        "n1": 0,
+        "n2": 0
+      },
+      "format": {
+        "Ausstellung": 12,
+        "Empfang": 1,
+        "Fachveranstaltung": 16,
+        "Fest": 40,
+        "Gedenken": 0,
+        "Info-Abend": 10,
+        "Konzert": 61,
+        "Kurs": 44,
+        "Markt": 66,
+        "Messe": 6,
+        "Offene Tür": 5,
+        "Podium": 4,
+        "Sonstiges": 104,
+        "Sport": 10,
+        "Theater": 38,
+        "Vortrag": 44
+      },
+      "gemHow": {
+        "geonames": 2,
+        "ki": 395,
+        "name": 46,
+        "none": 17,
+        "prefix": 1,
+        "titel": 0
+      },
+      "gem_ok": 448,
+      "modus": {
+        "hybrid": 0,
+        "online": 7,
+        "praesenz": 454
+      },
+      "n": 461,
+      "online_link": 0,
+      "online_ohne_ort": 7,
+      "reg_link": 26,
+      "regel_n": 405,
+      "regel_overlap": 327,
+      "rel": {
+        "hoch": 48,
+        "mittel": 260,
+        "niedrig": 153
+      },
+      "themen_fallback": 5,
+      "themen_min1": 461,
+      "topfix": 2
+    },
+    "quellen": {
+      "Green Tech Valley Cluster": {
+        "aufgenommen": 7,
+        "im_fenster": 11,
+        "roh": 11
+      },
+      "Stadt Kapfenberg": {
+        "aufgenommen": 6,
+        "im_fenster": 6,
+        "roh": 6
+      },
+      "Stadt Leoben": {
+        "aufgenommen": 10,
+        "im_fenster": 10,
+        "roh": 10
+      },
+      "Stadtgemeinde Liezen": {
+        "aufgenommen": 8,
+        "im_fenster": 8,
+        "roh": 8
+      },
+      "Stadtgemeinde Weiz": {
+        "aufgenommen": 12,
+        "im_fenster": 12,
+        "roh": 12
+      },
+      "Steirischer Marktkalender (WKO)": {
+        "aufgenommen": 51,
+        "im_fenster": 51,
+        "roh": 62
+      },
+      "TU Graz": {
+        "aufgenommen": 14,
+        "im_fenster": 14,
+        "roh": 14
+      },
+      "Universität Graz": {
+        "aufgenommen": 6,
+        "im_fenster": 6,
+        "roh": 6
+      },
+      "WKO Steiermark": {
+        "aufgenommen": 3,
+        "im_fenster": 3,
+        "roh": 3
+      },
+      "human.technology Styria": {
+        "aufgenommen": 12,
+        "im_fenster": 20,
+        "roh": 20
+      },
+      "meinbezirk.at": {
+        "aufgenommen": 366,
+        "im_fenster": 371,
+        "roh": 392
+      }
+    },
+    "verworfen": [
+      [
+        "Südburgenland/Hartberg will gegen Altach punkten",
+        "außerhalb der Steiermark"
+      ],
+      [
+        "Maturabälle im Lungau 2026/27",
+        "außerhalb der Steiermark"
+      ],
+      [
+        "Rotes Kreuz Lungau lädt zum Oktoberfest mit Benefizkonzert der Hollerstauden",
+        "außerhalb der Steiermark"
+      ],
+      [
+        "Tag der offenen Tür LFS Tamsweg",
+        "außerhalb der Steiermark"
+      ],
+      [
+        "Green Tech Innovators Club",
+        "außerhalb der Steiermark (LAKESIDE Science & Technology Park GmbH,)"
+      ],
+      [
+        "Wage zu denken 2026",
+        "außerhalb der Steiermark (Weissensee-Haus, Techendorf 78, 9762 Tec)"
+      ],
+      [
+        "Business Abend: Kreislaufwirtschaft & Smartes Holz",
+        "außerhalb der Steiermark (Karnische Werkstätten, Kötschach 450, 96)"
+      ],
+      [
+        "Hydrogen & Carbon Capture Technology WORLD EXPO 2026",
+        "außerhalb der Steiermark (Hamburg Messe, Messeplatz 1, 20357 Hambu)"
+      ],
+      [
+        "BIOTECH SUMMIT AUSTRIA 2026",
+        "außerhalb der Steiermark (Innsbruck)"
+      ],
+      [
+        "Praxiskonferenz 2026",
+        "außerhalb der Steiermark (City Campus der FH Wiener Neustadt)"
+      ],
+      [
+        "BIO Europe 2026",
+        "außerhalb der Steiermark (Köln, Deutschland)"
+      ],
+      [
+        "MEDICA 2026",
+        "außerhalb der Steiermark (Messe Düsseldorf)"
+      ],
+      [
+        "BIOTECH SUMMIT AUSTRIA 2026",
+        "außerhalb der Steiermark (Innsbruck)"
+      ],
+      [
+        "Praxiskonferenz 2026",
+        "außerhalb der Steiermark (City Campus der FH Wiener Neustadt)"
+      ],
+      [
+        "BIO Europe 2026",
+        "außerhalb der Steiermark (Köln, Deutschland)"
+      ],
+      [
+        "MEDICA 2026",
+        "außerhalb der Steiermark (Messe Düsseldorf)"
+      ],
+      [
+        "\"Yachting Croatia\" mit Weber Grill",
+        "außerhalb der Steiermark"
+      ]
+    ],
+    "zusammengefuehrt": 31
+  },
+  "n": 460,
+  "parts": 3,
+  "prevRun": "r202610040657",
+  "runId": "r202610040730",
+  "ts": "2026-10-04T07:30:08.116973+00:00",
+  "window": [
+    "2026-10-04",
+    "2026-11-21"
+  ]
+}
