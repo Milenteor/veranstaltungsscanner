@@ -43,13 +43,13 @@ jobs:
       - run: pip install -r pipeline/requirements.txt
       - name: Lauf
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_URL: https://wnitsbvsdrxflbfxurtz.supabase.co
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
+          VAPID_SUBJECT: https://milenteor.github.io/veranstaltungsscanner/
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
-          APP_URL: ${{ vars.APP_URL }}
+          APP_URL: https://milenteor.github.io/veranstaltungsscanner/
           MODEL_MAIN: ${{ vars.MODEL_MAIN }}
           MODE: ${{ github.event_name == 'schedule' && 'auto' || inputs.mode }}
           TARGET_UID: ${{ inputs.uid }}

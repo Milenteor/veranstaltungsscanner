@@ -2,8 +2,13 @@
 import { createClient, SupabaseClient } from "npm:@supabase/supabase-js@2";
 
 export const URL_ = Deno.env.get("SUPABASE_URL")!;
-const ANON = Deno.env.get("SUPABASE_ANON_KEY")!;
-const SERVICE = Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!;
+// Neue Schlüssel (sb_publishable_/sb_secret_) bevorzugen, alte als Rückfall (Supabase stellt die alten 2027 ab)
+function keyFrom(json: string | undefined, legacy: string): string {
+  try { const o = JSON.parse(json || "{}"); if (o && typeof o.default === "string" && o.default) return o.default; } catch (_) { /* weiter */ }
+  return Deno.env.get(legacy) || "";
+}
+const ANON = keyFrom(Deno.env.get("SUPABASE_PUBLISHABLE_KEYS"), "SUPABASE_ANON_KEY");
+const SERVICE = keyFrom(Deno.env.get("SUPABASE_SECRET_KEYS"), "SUPABASE_SERVICE_ROLE_KEY");
 const ORIGIN = Deno.env.get("APP_ORIGIN") || "*";   // z. B. https://dein-name.github.io
 
 export const cors = {

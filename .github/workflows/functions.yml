@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
-      REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+      REF: wnitsbvsdrxflbfxurtz
     steps:
       - uses: actions/checkout@v4
       - uses: supabase/setup-cli@v1
@@ -26,7 +26,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GH_TOKEN_FOR_SCAN: ${{ secrets.GH_DISPATCH_TOKEN }}
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
-          APP_ORIGIN: ${{ vars.APP_ORIGIN }}
+          APP_ORIGIN: https://milenteor.github.io
         run: |
           supabase secrets set --project-ref "$REF" \
             ANTHROPIC_API_KEY="$ANTHROPIC_API_KEY" \
