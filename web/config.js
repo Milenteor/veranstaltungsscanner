@@ -3,6 +3,8 @@ window.VS_CONFIG = {
   supabaseUrl: 'https://DEIN-PROJEKT.supabase.co',
   supabaseAnonKey: 'DEIN-ANON-ODER-PUBLISHABLE-KEY',
   vapidPublicKey: 'DEIN-VAPID-PUBLIC-KEY',
-  appUrl: '',                       // leer lassen = Adresse, unter der die App läuft
+  appUrl: '',   // leer = Adresse, unter der die App läuft
+  logoUrl: '',   // z. B. 'logo.svg' (Datei in den Ordner web legen); leer = kein Logo
+  logoAlt: '',
   scanTimeLabel: '9:30 Uhr'   // passt zu .github/workflows/scan.yml (Start 9:20 Uhr Wiener Zeit)
 };

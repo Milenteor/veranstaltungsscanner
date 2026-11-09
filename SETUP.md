@@ -139,6 +139,14 @@ Jemand soll keinen Zugang mehr haben:
 delete from public.members where email = 'adresse@beispiel.at';
 ```
 
+## Durchsuchte Seiten ändern
+
+In der App unter **Einstellungen › Durchsuchte Seiten** (nur für Verwalter:innen): Seiten aus- und wieder einschalten, eigene Terminseiten mit Name und Adresse hinzufügen oder entfernen. Das gilt ab dem nächsten Suchlauf für alle. Ausgeschaltete Seiten liest der Scanner nicht mehr, ihre Termine fallen beim nächsten Lauf weg. Bei eigenen Seiten übernimmt die KI nur Termine, die wörtlich auf der Seite stehen.
+
+## Logo
+
+Logo-Datei (SVG oder PNG) in den Ordner `web` legen und in `web/config.js` bei `logoUrl` den Dateinamen eintragen, zum Beispiel `'logo.svg'`, bei `logoAlt` den Namen. Es erscheint oben links im Kopf. Ein Parteilogo nur mit Freigabe der Partei verwenden.
+
 ## Wenn etwas nicht geht
 
 | Beobachtung | Ursache und Lösung |

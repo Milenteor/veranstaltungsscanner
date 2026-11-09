@@ -14,7 +14,9 @@ def once(s, old, new, label):
 
 HEAD = ('<meta name="theme-color" content="#CB1967"><link rel="manifest" href="manifest.webmanifest">'
         '<link rel="apple-touch-icon" href="apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes">'
-        '<meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default">'
+        '<meta name="mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">'
+        # Als Web-App läuft der Inhalt unter der Statusleiste: Abstand nur im Kopf, Statusleiste in Kopffarbe
+        '<style>:root{--sat:env(safe-area-inset-top,0px);padding-top:0!important}</style>'
         '<meta name="apple-mobile-web-app-title" content="Termine">'
         '<script src="config.js"></script><script src="vendor/supabase.js"></script><script src="backend.js"></script>')
 s = once(src, '</style></head><body>', '</style>' + HEAD + '</head><body>', 'Kopf')
@@ -22,7 +24,6 @@ s = once(s, 'const APP_URL="https://claude.ai/artifact/SUzPecCXhCQJot8oUbgr5y";'
          'const APP_URL=(window.VS_CONFIG&&VS_CONFIG.appUrl)||(location.origin+location.pathname);', 'App-Adresse')
 s = once(s, "function inArtifact(){return typeof window!=='undefined'&&!!window.claude;}",
          "function inArtifact(){return typeof window!=='undefined'&&!!window.claude&&!window.VS_SELF;}", 'inArtifact')
-s = once(s, "S.mode=Store.flag('mode')||'demo';", "S.mode=Store.flag('mode')||(window.VS_SELF?'live':'demo');", 'Startmodus')
 # Uhrzeit des Suchlaufs aus config.js statt 5:45
 n = s.count('5:45 Uhr')
 s = s.replace('5:45 Uhr', "'+(window.VS_TIME||'5:45 Uhr')+'")

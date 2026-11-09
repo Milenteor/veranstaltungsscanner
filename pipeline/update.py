@@ -118,6 +118,29 @@ def stand(fmt, zg, src):
 def chk(x, vals, default): return x if x in vals else default
 def sid(*parts): return hashlib.sha1('|'.join(parts).encode()).hexdigest()[:8]
 
+# ---------------------------------------------------------------- Quellen-Einstellung (config/sources aus der App)
+PRIVHOST = re.compile(r'^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|169\.254\.)', re.I)
+def load_srccfg(p):
+    """Gibt (aktive Quellen {key: (Name, URL)}, ausgeschaltete Schlüssel) zurück.
+    Ausschaltbar: alle Schlüssel aus SOURCES sowie 'meinbezirk' und 'markt'. Eigene Seiten bekommen den Schlüssel c_<sha1>."""
+    c = {}
+    if p and os.path.exists(p):
+        try: c = json.load(open(p))
+        except Exception: c = {}
+    if isinstance(c, dict) and isinstance(c.get('data'), dict): c = c['data']
+    if not isinstance(c, dict): c = {}
+    known = set(SOURCES) | {'meinbezirk', 'markt'}
+    off = {k for k in (c.get('off') or []) if isinstance(k, str) and k in known}
+    src = {k: v for k, v in SOURCES.items() if k not in off}
+    for x in (c.get('add') or [])[:30]:
+        if not isinstance(x, dict): continue
+        url = str(x.get('url') or '').strip()
+        host = urlparse(url).hostname or ''
+        if not re.match(r'^https?://', url) or '.' not in host or PRIVHOST.match(host) or len(url) > 500: continue
+        name = re.sub(r'\s+', ' ', str(x.get('name') or '')).strip()[:80] or host.replace('www.', '')
+        src['c_' + hashlib.sha1(url.encode()).hexdigest()[:8]] = (name, url)
+    return src, off
+
 # ---------------------------------------------------------------- Abruf
 _robots = {}
 _last = {}
@@ -201,10 +224,11 @@ def cmd_fetch(a):
     os.makedirs(a.work, exist_ok=True); os.makedirs(os.path.join(a.work, 'todo_src'), exist_ok=True)
     meta, prev = load_prev(a.prev)
     P = {e['id']: e for e in prev}
+    SRC, OFF = load_srccfg(getattr(a, 'srccfg', ''))
     flog = {'start': START, 'end': END, 'quellen': {}, 'fehler': []}
     # meinbezirk: Listen
     items, ok_dist = {}, set()
-    for dist in SLUG:
+    for dist in (SLUG if 'meinbezirk' not in OFF else []):
         page = 1
         while page <= 40:
             url = f"https://www.meinbezirk.at/event/{dist}/list" if page == 1 else f"https://www.meinbezirk.at/event/{dist}/list/all/{page}"
@@ -252,13 +276,13 @@ def cmd_fetch(a):
             todo.append({'id': k, 'datum': it['d'], 'beginn': it['s'], 'bezirk_meinbezirk': it['dist'], 'ort_angaben': it['place'], 'kategorie': it['cat'],
                          'titel': it['title'], 'text': it['text'][:900], '_url': it['url'], '_detail': dd})
     # Termine verschwundener Bezirkslisten behalten (Abruf gescheitert)
-    for e in prev:
+    for e in (prev if 'meinbezirk' not in OFF else []):
         if e['id'].startswith('mb') and e['id'] not in win and START <= e['d'] <= END:
             dist_ok = any(SLUG[d] == (e.get('bz') or '') for d in ok_dist)
             if not dist_ok: keep.append(e)
     # weitere Quellen
     hashes = {}
-    for key, (name, url) in SOURCES.items():
+    for key, (name, url) in SRC.items():
         urls = [url]
         h, err = get(url)
         if err or not h: flog['fehler'].append((url, err or 'leer')); continue
@@ -282,7 +306,8 @@ def cmd_fetch(a):
         else:
             open(os.path.join(a.work, 'todo_src', key + '.txt'), 'w').write(f"QUELLE: {name}\nURL: {' | '.join(urls)}\nHEUTE: {START}, FENSTER bis {END}\n\n" + txt[:60000])
     json.dump(todo, open(os.path.join(a.work, 'todo_mb.json'), 'w'), ensure_ascii=False, indent=0)
-    json.dump({'start': START, 'end': END, 'keep': keep, 'hashes': hashes, 'log': flog, 'prevRun': meta.get('runId')}, open(os.path.join(a.work, 'state.json'), 'w'), ensure_ascii=False)
+    json.dump({'start': START, 'end': END, 'keep': keep, 'hashes': hashes, 'log': flog, 'prevRun': meta.get('runId'),
+               'sources': {k: list(v) for k, v in SRC.items()}, 'off': sorted(OFF)}, open(os.path.join(a.work, 'state.json'), 'w'), ensure_ascii=False)
     print(json.dumps({'fenster': [START, END], 'meinbezirk_im_fenster': len(win), 'uebernommen': len(keep), 'neu_zu_taggen': len(todo),
                       'quellseiten_neu_zu_lesen': sorted(os.path.basename(f)[:-4] for f in glob.glob(os.path.join(a.work, 'todo_src', '*.txt'))),
                       'fehler': flog['fehler']}, ensure_ascii=False, indent=1))
@@ -363,8 +388,9 @@ def cmd_merge(a):
     # extrahierte Quellen
     for f in sorted(glob.glob(os.path.join(a.work, 'ext_*.json'))):
         key = os.path.basename(f)[4:-5]
-        if key not in SOURCES: continue
-        name = SOURCES[key][0]
+        SRCS = S.get('sources') or {k: list(v) for k, v in SOURCES.items()}
+        if key not in SRCS: continue
+        name = SRCS[key][0]
         tf = os.path.join(a.work, 'todo_src', key + '.txt')
         TXT = re.sub(r'\s+', ' ', open(tf).read()) if os.path.exists(tf) else ''
         for x in json.load(open(f)):
@@ -400,7 +426,7 @@ def cmd_merge(a):
                        'src': [{'n': name, 'u': x.get('url')}], 'fl': fl, 'ruleTopics': rtags(x['titel'] + ' ' + (x.get('kurz') or '')), '_srckey': key})
             add(name, 'aufgenommen')
     # Marktkalender (Jahresausgabe, statisch)
-    mk = sorted(json.load(open(os.path.join(HERE, 'markt_2026.json'))), key=lambda m: (m['place'], m['d']))
+    mk = [] if 'markt' in (S.get('off') or []) else sorted(json.load(open(os.path.join(HERE, 'markt_2026.json'))), key=lambda m: (m['place'], m['d']))
     grp = []
     for m in mk:
         if grp and grp[-1]['place'] == m['place'] and (date.fromisoformat(m['d']) - date.fromisoformat(grp[-1]['d2'])).days == 1:
@@ -566,7 +592,7 @@ def cmd_due(a):
 
 if __name__ == '__main__':
     ap = argparse.ArgumentParser(); sp = ap.add_subparsers(dest='cmd')
-    f = sp.add_parser('fetch'); f.add_argument('--prev', default=''); f.add_argument('--work', required=True)
+    f = sp.add_parser('fetch'); f.add_argument('--prev', default=''); f.add_argument('--work', required=True); f.add_argument('--srccfg', default='')
     m = sp.add_parser('merge'); m.add_argument('--work', required=True); m.add_argument('--out', required=True)
     n = sp.add_parser('notify'); n.add_argument('--push', required=True); n.add_argument('--prev', default=''); n.add_argument('--out', required=True)
     d = sp.add_parser('due'); d.add_argument('--cfg', default=''); d.add_argument('--latest', default='')

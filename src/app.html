@@ -34,7 +34,7 @@ a{color:var(--pink-d)}
 @media (max-width:820px){.hero .wrap{grid-template-columns:1fr;padding-top:18px;padding-bottom:14px}.hero .mini{display:none}}
 
 /* App-Leiste */
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:#fff;border-bottom:1px solid var(--line);transition:background .3s}
+.bar{position:sticky;top:var(--sat,env(safe-area-inset-top,0px));z-index:40;background:#fff;border-bottom:1px solid var(--line);transition:background .3s}
 .bar .wrap{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-height:58px}
 .tabs{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none;flex:1 1 auto}
 .tabs::-webkit-scrollbar{display:none}
@@ -478,12 +478,39 @@ body .toast.abs.abs.abs{bottom:auto!important}
 @media (max-width:560px){.hero .wrap{padding-top:14px;padding-bottom:12px}.hero h1{font-size:27px;margin-bottom:6px}.hero .lead{font-size:15px}
  .tabs button{padding:13px 9px 10px;font-size:15px}.wc{padding:7px 12px;font-size:13.5px}.btn.sm{padding:8px 12px}
  .ev .acts .btn{min-height:40px}.qopt{padding:13px 14px}}
+
+/* Kopf: Logo, Wahlkampf-Schalter, Statusleiste, Demo-Hinweis */
+.hero .wrap{padding-top:calc(var(--sat,0px) + 22px)}
+.htop{grid-column:1/-1;display:flex;align-items:center;gap:12px;min-height:36px;margin:0 0 -6px}
+.hlogo{height:32px;width:auto;max-width:170px;display:block;object-fit:contain}
+.wkpill{appearance:none;display:inline-flex;align-items:center;gap:6px;margin-left:auto;border:2px solid #fff;background:transparent;color:#fff;border-radius:999px;padding:6px 14px;min-height:36px;font:inherit;font-weight:700;font-size:14px;cursor:pointer;touch-action:manipulation;white-space:nowrap}
+.wkpill[aria-pressed=true]{background:#000;border-color:#000;color:var(--yellow)}
+@media (hover:hover){.wkpill:hover{background:rgba(255,255,255,.16)}.wkpill[aria-pressed=true]:hover{background:#222}}
+body.wk .stamp{display:none}
+.sbcover{position:fixed;top:0;left:0;right:0;height:var(--sat,0px);background:var(--pink);z-index:60;pointer-events:none;transition:background .3s}
+body.wk .sbcover{background:var(--yellow)}
+.demobar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;background:#000;color:#fff;border-radius:10px;padding:10px 14px;margin:14px 0 0;font-size:14px}
+.demobar .btn{background:#fff;color:#000;border-color:#fff}
+.srcl{list-style:none;margin:0 0 10px;padding:0;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.srcl li{display:flex;align-items:center;gap:10px;padding:10px 12px;border-top:1px solid var(--line);background:#fff}
+.srcl li:first-child{border-top:0}
+.srcl li.off{background:var(--gray)}.srcl li.off .sn{color:#6b6b66;text-decoration:line-through}
+.srcl .sn{font-weight:700;font-size:14.5px;overflow-wrap:anywhere}.srcl .su{display:block;font-size:12.5px;color:#6b6b66;overflow-wrap:anywhere}
+.srcl .sw{margin:0;flex:0 0 auto}.srcl .sx{flex:1 1 auto;min-width:0}
+.srcadd{display:grid;grid-template-columns:1fr 1.4fr auto;gap:8px;align-items:end;background:var(--gray);border-radius:10px;padding:12px}
+.srcadd input{width:100%;box-sizing:border-box;font-size:15px;padding:8px 10px;border:1px solid #000;border-radius:6px;background:#fff}
+.srcadd input:disabled,.srcadd button:disabled{opacity:.5}
+@media (max-width:560px){.srcadd{grid-template-columns:1fr}}
+@media (max-width:820px){.hero .wrap{padding-top:calc(var(--sat,0px) + 14px)}}
+@media (max-width:820px){.htop{margin:0}.hero .wrap{row-gap:10px}}
 </style>
 <div id="appRoot" class="approot">
 <div class="wipe" id="wipe" aria-hidden="true"></div>
+<div class="sbcover" aria-hidden="true"></div>
 <header class="hero" id="hero">
   <div class="stamp">📣 Wahlkampf-Modus</div>
   <div class="wrap">
+    <div class="htop"><img class="hlogo" id="heroLogo" alt="" hidden><button class="wkpill" id="wkBtn" aria-pressed="false" title="Wahlkampf-Modus: Reichweite zählt mehr als Fachthema"><span aria-hidden="true">📣</span><span class="al">Wahlkampf</span></button></div>
     <div>
       <h1>Veranstaltungs&shy;scanner Steiermark</h1>
       <p class="lead" id="heroLead">Die passenden Termine der nächsten sechs Wochen, automatisch gefunden und begründet.</p>
@@ -501,6 +528,7 @@ body .toast.abs.abs.abs{bottom:auto!important}
       <button role="tab" data-v="meine" aria-selected="false">Personalisierte Termine<span class="cnt" id="meineCnt" hidden>0</span></button>
       <button role="tab" data-v="einst" aria-selected="false">Einstellungen</button>
       <button role="tab" data-v="faq" aria-selected="false">FAQ</button>
+      <button role="tab" data-v="admin" aria-selected="false">Admin</button>
     </div>
   </div>
   <div class="wrap actwrap"><div class="actbar" role="toolbar" aria-label="Aktionen">
@@ -508,23 +536,17 @@ body .toast.abs.abs.abs{bottom:auto!important}
       <button class="ab" id="findBtn" title="Termine nach Stichwort durchsuchen"><span class="ai" aria-hidden="true">🔍</span><span class="al">Finden</span></button>
       <button class="ab" id="scanBtn" title="Neuesten Stand holen"><span class="ai" aria-hidden="true">↻</span><span class="al">Jetzt suchen</span></button>
       <button class="ab" id="addBtn" title="Termin hinzufügen: Mail, Text oder Link"><span class="ai" aria-hidden="true">＋</span><span class="al">Termin</span></button>
-      <button class="ab" id="wkBtn" aria-pressed="false" title="Wahlkampf-Modus"><span class="ai" aria-hidden="true">📣</span><span class="al">Wahlkampf</span></button>
-      <span class="absep" aria-hidden="true"></span>
-      <div class="mode" role="group" aria-label="Version">
-        <button data-mode="demo" aria-pressed="true">Demo</button>
-        <button data-mode="live" aria-pressed="false">Live</button>
-      </div>
-      <button class="ab abs" id="adminBtn" title="Admin-Bereich"><span class="ai" aria-hidden="true">⚙︎</span><span class="al">Admin</span></button>
   </div></div>
   <div class="wrap whobar"><span class="wlab">Du bist</span><div class="whochips" id="who" role="group" aria-label="Du bist, Mehrfachauswahl möglich"></div></div>
 </nav>
 
 <main class="wrap">
+  <div class="demobar" id="demoBar" hidden><span><b>Demo-Modus</b> · erfundene Termine vom 9. Oktober 2026</span><button class="btn sm" data-act="demooff">Demo beenden</button></div>
   <div class="wkbar"><span>📣 Wahlkampf-Modus</span><span class="xs" style="color:#fff;font-weight:500">Reichweite zählt mehr als Fachthema. Märkte, Feste und Messen oben, mit Touren und Lückenkarte.</span></div>
 
   <!-- Für dich -->
   <section class="view on" id="v-fuerdich" role="tabpanel">
-    <div class="explain" id="exFuer"><b>Demo mit Musterdaten, Freitag 9. Oktober 2026.</b> So sieht eine Abgeordnete ihre Woche, ohne etwas einzustellen: oben die Kurzfassung, darunter die Vorschläge mit Begründung. Ein Klick genügt: „Ich gehe hin“ legt den Termin unter „Personalisierte Termine“ ab und erinnert an die Anmeldung, „Nicht für mich“ blendet ihn aus und lernt mit. Oben rechts wechselst du in den Live-Pilot mit echten Terminen.</div>
+    <div class="explain" id="exFuer"><b>Demo mit Musterdaten, Freitag 9. Oktober 2026.</b> So sieht eine Abgeordnete ihre Woche, ohne etwas einzustellen: oben die Kurzfassung, darunter die Vorschläge mit Begründung. Ein Klick genügt: „Ich gehe hin“ legt den Termin unter „Personalisierte Termine“ ab und erinnert an die Anmeldung, „Nicht für mich“ blendet ihn aus und lernt mit. Zurück zu den echten Terminen: „Demo beenden“ oben oder in den Einstellungen.</div>
     <div id="fuerdich"></div>
   </section>
 
@@ -1035,10 +1057,13 @@ const Store={
   flag(k,v){if(v===undefined)return this.L.flags[k];this.L.flags[k]=v;this.persist();},
   wipe(mode,pid){delete this.L.u[this.k(mode,pid)];this.L.log=this.L.log.filter(e=>!(e.mode===mode&&e.pid===pid));this.persist();
     if(this.db){this.db.doc('data/users/'+this.uid+'/'+this.k(mode,pid)).delete().catch(()=>{});}},
-  cfg:{rhythm:'woche',day:1,ts:null},canAdmin:false,
+  cfg:{rhythm:'woche',day:1,ts:null},src:{off:[],add:[]},canAdmin:false,
   async cfgLoad(){if(!this.db)return this.cfg;try{const d=await this.db.doc('config/scan').get();if(d.exists){const b=d.data()||{};this.cfg={rhythm:['tag','zwei','woche','zwoche'].includes(b.rhythm)?b.rhythm:'woche',day:Math.max(1,Math.min(7,+b.day||1)),ts:typeof b.ts==='string'?b.ts:null,req:typeof b.req==='string'?b.req:null};}}catch(_){}return this.cfg;},
   async cfgSave(c){this.cfg=Object.assign({},this.cfg,c,{ts:new Date().toISOString()});if(S.mode!=='live'||!this.db)return'local';
     try{await this.db.doc('config/scan').set(this.cfg);return'db';}catch(e){return'denied';}},
+  async srcLoad(){if(!this.db)return this.src;try{const d=await this.db.doc('config/sources').get();this.src=d.exists?cleanSrcCfg(d.data()):{off:[],add:[]};}catch(e){}return this.src;},
+  async srcSave(c){const n=cleanSrcCfg(c);if(S.mode!=='live'||!this.db){this.src=n;return'local';}
+    try{await this.db.doc('config/sources').set(Object.assign({},n,{ts:new Date().toISOString()}));this.src=n;return'db';}catch(e){return'denied';}},
   async queueLink(h,u){if(!this.db)return false;try{await this.db.doc('linkq/'+h).set({h,u,ts:new Date().toISOString()});return true;}catch(_){return false;}},
   async linkInfo(h){if(!this.db)return null;try{const d=await this.db.doc('linkinfo/'+h).get();return d.exists?d.data():null;}catch(_){return null;}},
   async connect(onChange){
@@ -1047,7 +1072,7 @@ const Store={
       const id=await user.id();if(!id)return;this.db=db;this.uid=id;this.be='db';
       const k=this.k(S.mode,S.pid);await this.pull(S.mode,S.pid);
       const sub=(col,key)=>{try{db.collection(col).onSnapshot(q=>{const rows=q.docs.map(d=>d.data()).filter(Boolean);rows.forEach(r=>{const i=this.L[key].findIndex(x=>x.id===r.id);if(i<0)this.L[key].push(r);else this.L[key][i]=r;});this.persist();onChange&&onChange(col);},()=>{});}catch(_){}};
-      sub('invites','inv');sub('team','team');try{this.canAdmin=!!(user.canEdit&&await user.canEdit());}catch(_){}await this.cfgLoad();onChange&&onChange('user');}catch(_){}},
+      sub('invites','inv');sub('team','team');try{this.canAdmin=!!(user.canEdit&&await user.canEdit());}catch(_){}await this.cfgLoad();await this.srcLoad();onChange&&onChange('user');}catch(_){}},
   async pull(mode,pid){if(!this.db)return;const k=this.k(mode,pid);
     try{const s=await this.db.doc('data/users/'+this.uid+'/'+k).get();
       if(s.exists){const d=s.data()||{};const loc=this.L.u[k];const sv=+d._ts||0;
@@ -1360,6 +1385,12 @@ function regState(ev,st){if(!(safeUrl(ev.reg)||ev.anm||rsvpOf(ev)))return'<span 
 function mineRow(ev,past){const us=U(),st=us.st[ev.id]||{};const W=windows();
   return '<div class="row mine'+(past?' past':'')+'" data-open="'+esc(ev.id)+'"><div class="when">'+esc(fmtD(ev.d))+'<br><span class="xs muted">'+esc(relDay(W.today,ev.d))+'</span></div><div><button class="link ttl" data-act="det" data-id="'+esc(ev.id)+'"><span aria-hidden="true">'+emo(ev)+'</span> '+esc(ev.title)+'</button><div class="meta">'+esc(fmtT(ev))+' · '+(orgTxt(ev)?esc(orgTxt(ev))+' · ':'')+placeTxt(ev,null)+'</div><div class="chips" style="margin:6px 0 0">'+(past?'':regState(ev,st))+linksFor(ev,{noAnm:true,noReg:true})+calLinks(ev)+(ev.fl&&ev.fl.changed?'<span class="chip y wrap">Geändert: '+esc(ev.fl.changed)+'</span>':'')+(ev.fl&&ev.fl.cancelled?'<span class="chip k">Abgesagt</span>':'')+'</div></div><div class="mine-a">'+(past?'<span class="chip g">vorbei</span>':'<button class="btn sm ghost" data-act="go" data-id="'+esc(ev.id)+'">Absagen</button>')+'</div></div>';}
 function dayBtns(name,cur,dis){return '<div class="days'+(dis?' dis':'')+'" data-days="'+name+'">'+[1,2,3,4,5,6,7].map(d=>'<button type="button" data-day="'+d+'" aria-pressed="'+(d===cur)+'">'+WD[d%7]+'</button>').join('')+'</div>';}
+const SRC_BUILTIN=[["meinbezirk", "meinbezirk.at (alle 13 Bezirke)", "https://www.meinbezirk.at/"], ["markt", "Steirischer Marktkalender (WKO)", "https://www.wko.at/stmk/handel/markt-strassen-wanderhandel/steirischer-marktkalender-2026"], ["tugraz", "TU Graz", "https://www.tugraz.at/news/tu-graz-events/monatsansicht"], ["unigraz", "Universität Graz", "https://www.uni-graz.at/de/veranstaltungen/"], ["greentech", "Green Tech Valley Cluster", "https://www.greentech.at/termine/"], ["greentech2", "Green Tech Valley Cluster (Seite 2)", "https://www.greentech.at/termine/page/2/"], ["humantechnology", "human.technology Styria", "https://www.humantechnology.at/events/"], ["humantechnology2", "human.technology Styria (Seite 2)", "https://www.humantechnology.at/events/page/2/"], ["wko", "WKO Steiermark", "https://www.wko.at/stmk/veranstaltungen/wirtschaft-und-branchen"], ["kapfenberg", "Stadt Kapfenberg", "https://www.kapfenberg.gv.at/veranstaltungen"], ["weiz", "Stadtgemeinde Weiz", "https://www.weiz.at/veranstaltungen"], ["leoben", "Stadt Leoben", "https://www.leoben.at/events/"], ["liezen", "Stadtgemeinde Liezen", "https://www.liezen.at/veranstaltungen"]];
+function srcUrlOk(v){v=String(v||'').trim();if(!v)return null;if(!/^https?:\/\//i.test(v))v='https://'+v;try{const x=new URL(v);const h=x.hostname.toLowerCase();if(!/^https?:$/.test(x.protocol)||!/\.[a-z]{2,}$/.test(h)||/^(localhost|127\.|10\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|169\.254\.)/.test(h))return null;return x.href.slice(0,500);}catch(e){return null;}}
+function srcHost(v){try{return new URL(v).hostname.replace(/^www\./,'');}catch(e){return String(v||'');}}
+function cleanSrcCfg(c){c=c||{};const known=SRC_BUILTIN.map(x=>x[0]);const off=[...new Set((Array.isArray(c.off)?c.off:[]).filter(k=>known.includes(k)))];
+  const add=[];(Array.isArray(c.add)?c.add:[]).forEach(x=>{if(!x||add.length>=30)return;const v=srcUrlOk(x.url);if(!v||add.some(y=>y.url===v))return;add.push({name:String(x.name||'').replace(/\s+/g,' ').trim().slice(0,80)||srcHost(v),url:v});});
+  return {off,add};}
 function renderEinst(){
   const us=U(),p=P(),s=us.set;const W=windows();
   const ch=s.brief;const pop=ch==='popup'||ch==='both',mail=ch==='mail'||ch==='both';
@@ -1392,8 +1423,14 @@ function renderEinst(){
       (nb?'<p class="small"><b>'+nb+' Tage mit Belegung</b> eingelesen'+(c.ts?' am '+esc(new Date(c.ts).toLocaleDateString('de-AT')):'')+'. <button class="link" data-act="calclear">Löschen</button></p>':'');}
   const cf=Store.cfg||{rhythm:'woche',day:1};const canCfg=S.mode==='demo'||Store.canAdmin||!Store.db;
   h+='<h3>Wie oft gesucht wird</h3><div class="filters" style="grid-template-columns:1fr 1fr"><div><label class="f" for="sRhy">Rhythmus</label><select id="sRhy"'+(canCfg?'':' disabled')+'>'+[['tag','Täglich'],['zwei','Zweimal pro Woche (Mo und Do)'],['woche','Einmal pro Woche (Standard)'],['zwoche','Alle zwei Wochen']].map(([v,l])=>'<option value="'+v+'"'+(cf.rhythm===v?' selected':'')+'>'+l+'</option>').join('')+'</select></div><div><label class="f">Wochentag</label>'+dayBtns('rhyDay',cf.day||1,!canCfg||cf.rhythm==='tag'||cf.rhythm==='zwei')+'</div></div><p class="xs muted">Gesucht wird morgens um 5:45 Uhr. Die Einstellung gilt für alle, ändern kann sie nur, wer die App verwaltet'+(canCfg?'':' (du siehst sie nur)')+'. „Suche jetzt“ zeigt jederzeit den neuesten Stand.</p>';
+  if(window.VS_SELF){const sc=cleanSrcCfg(Store.src);const dis=canCfg?'':' disabled';
+    h+='<h3 id="srcH">Durchsuchte Seiten</h3><p class="small muted" style="margin-top:0">Gilt für alle ab dem nächsten Suchlauf. '+(canCfg?'Ausgeschaltete Seiten liest der Scanner nicht mehr, ihre Termine fallen beim nächsten Lauf weg.':'Ändern kann das, wer die App verwaltet.')+'</p><ul class="srcl">'+
+      SRC_BUILTIN.map(([k,n,u])=>{const on=!sc.off.includes(k);return '<li'+(on?'':' class="off"')+'><label class="sw"><input type="checkbox" data-src="'+k+'"'+(on?' checked':'')+dis+' aria-label="'+esc(n)+' durchsuchen"><span class="tr"></span></label><span class="sx"><span class="sn">'+esc(n)+'</span><a class="su" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(srcHost(u))+'</a></span></li>';}).join('')+
+      sc.add.map((x,i)=>'<li><span class="badge">eigene</span><span class="sx"><span class="sn">'+esc(x.name)+'</span><a class="su" href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(srcHost(x.url))+'</a></span>'+(canCfg?'<button class="btn sm ghost" data-act="srcdel" data-i="'+i+'">Entfernen</button>':'')+'</li>').join('')+'</ul>';
+    if(canCfg)h+='<div class="srcadd"><div><label class="f" for="srcName">Name</label><input id="srcName" maxlength="80" placeholder="z. B. Stadt Gleisdorf" autocomplete="off"></div><div><label class="f" for="srcUrl">Adresse der Terminseite</label><input id="srcUrl" type="url" inputmode="url" placeholder="https://…" autocomplete="off" autocapitalize="off"></div><button class="btn sm pri" data-act="srcadd">Hinzufügen</button></div><p class="xs muted">Am besten die Seite mit der Terminliste. Die KI liest sie bei jedem Lauf und übernimmt nur Termine, die wörtlich auf der Seite stehen.</p>';}
   const off=Object.keys(us.learned.off||{});
   h+='<h3>Gelernt aus deinem Feedback</h3>'+(off.length?'<ul class="small">'+off.map(k=>'<li>'+esc(k==='weit'?'Ab '+us.learned.off.weit+' min nur „knapp darunter“':k.startsWith('fmt:')?'Format „'+k.slice(4)+'“ ausgeblendet':'Thema „'+(TSHORT[k.slice(4)]||k)+'“ seltener')+' <button class="link" data-act="unlearn" data-k="'+esc(k)+'">Rückgängig</button></li>').join('')+'</ul>':'<p class="small muted">Noch nichts. Nach zwei gleichen Gründen bei „Nicht für mich“ passe ich deine Vorschläge an und sage es dir.</p>');
+  h+='<h3>Demo-Modus</h3><label class="sw"><input type="checkbox" id="sDemo"'+(S.mode==='demo'?' checked':'')+'><span class="tr"></span>Demo mit Musterdaten</label><p class="xs muted">Erfundene Termine und Musternamen vom 9. Oktober 2026, zum Ausprobieren und Vorführen. Deine echten Zusagen und Einstellungen bleiben getrennt gespeichert.</p>';
   h+='<h3>Deine Daten</h3><p class="small">Gespeichert: deine Klicks auf Vorschläge, diese Einstellungen'+(c.on&&S.mode==='live'?', Kalender-Blöcke':'')+'. Ort der Speicherung: '+(Store.be==='db'?'privater Bereich dieser App, nur für dich lesbar':Store.be==='local'?'nur in diesem Browser':'nur bis zum Schließen der Seite')+'.</p><div class="acts"><button class="btn sm" data-act="mydata">Meine Daten anzeigen</button><button class="btn sm" data-act="wipe">Alles löschen</button></div>';
   h+='</div></div>';
   $('#einst').innerHTML=h;}
@@ -2070,7 +2107,6 @@ function rerender(){
 function updMeineCnt(){const us=U(),W=windows();const go=EVENTS.filter(ev=>us.st[ev.id]&&us.st[ev.id].s==='go'&&ev.d>=W.today).length;const inv=Store.invites(S.mode).filter(i=>i.to===S.pid&&i.status==='offen'&&evById(i.ev)&&evById(i.ev).d>=W.today).length;const c=$('#meineCnt');c.textContent=go+inv;c.hidden=!(go+inv);}
 function setView(v){if(v==='admin'){S.prevView=S.view==='admin'?S.prevView:S.view;}
   S.view=v;$$('#tabs button').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.v===v)));$$('section.view').forEach(s=>s.classList.toggle('on',s.id==='v-'+v));
-  $('#adminBtn').classList.toggle('on',v==='admin');
   clearFresh();rerender();Store.log('view',null,null,v);revealTop();if(v==='meine')checkPend();
   const bar=$('.bar');if(bar&&window.scrollY>bar.offsetTop)window.scrollTo({top:$('.hero').offsetHeight});}
 function clearFresh(){const us=U();let ch=false;Object.values(us.st).forEach(x=>{if(x.fresh){delete x.fresh;ch=true;}});if(ch)saveU();}
@@ -2088,7 +2124,7 @@ function whoClick(id){const prevPid=S.pid;
   toast(S.all?'Alle Termine, ohne Profilfilter':'Ansicht für '+selLabel());}
 function setMode(m){if(m===S.mode)return;S.mode=m;Store.flag('mode',m);S.pid=Store.flag('pid_'+m)||'labg-bt';S.sel=(Store.flag('sel_'+m)||[]).filter(x=>personById(x));S.all=!!Store.flag('all_'+m);S.ki=null;S.f.day=null;S.map={bez:null,gem:null};VB=[0,0,G.vb[0],G.vb[1]];if(mapBuilt)$('#map svg').setAttribute('viewBox',VB.join(' '));
   document.body.classList.toggle('demo',m==='demo');document.body.classList.toggle('live',m==='live');
-  $$('.mode button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===m)));
+  $('#demoBar').hidden=m!=='demo';
   $('#heroLead').textContent=m==='demo'?'Demo mit Musterdaten: so findet der Scanner die passenden Termine der nächsten sechs Wochen, mit Begründung.':'Live-Pilot mit echten, öffentlichen Terminen aus der Steiermark. Automatisch gefunden, getaggt und begründet.';
   fillWho();rebuildEvents();heroMap();Store.pull(m,S.pid).then(()=>{rerender();});rerender();if(m==='live')loadRun().then(r=>applyRun(r));if(S.view!=='admin')setTimeout(maybePopup,350);
   toast(m==='demo'?'Demo mit Musterdaten':'Live-Pilot mit echten Terminen');}
@@ -2140,6 +2176,12 @@ function act(a,id,el){const us=U();const ev=id?evById(id):null;
   if(a==='popnow'){openBrief(false);return;}
   if(a==='mailprev'){openMailPrev();return;}
   if(a==='mydata'){openMyData();return;}
+  if(a==='demooff'){setMode('live');return;}
+  if(a==='srcadd'){const ni=$('#srcName'),ui=$('#srcUrl');if(!ui)return;const v=srcUrlOk(ui.value);if(!v){toast('Bitte eine gültige Adresse eingeben');ui.focus();return;}
+    const sc=cleanSrcCfg(Store.src);if(sc.add.some(x=>x.url===v)||SRC_BUILTIN.some(x=>x[2]===v)){toast('Diese Seite ist schon dabei');return;}
+    sc.add.push({name:(ni&&ni.value.trim())||srcHost(v),url:v});Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'Seite hinzugefügt, gilt ab dem nächsten Suchlauf'+(r==='local'?' (Demo)':''));});Store.log('src_add',null,null,srcHost(v));return;}
+  if(a==='srcdel'){const sc=cleanSrcCfg(Store.src);const i=+el.dataset.i;const x=sc.add[i];if(!x)return;sc.add.splice(i,1);
+    Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'„'+x.name+'“ entfernt');});Store.log('src_del',null,null,srcHost(x.url));return;}
   if(a==='wipe'){Store.wipe(S.mode,S.pid);closeDlg();rerender();toast('Deine Daten für diese Rolle sind gelöscht');return;}
   if(a==='calclear'){us.set.cal.blocks={};us.set.cal.n=0;us.set.cal.on=false;saveU();rerender();toast('Kalender-Blöcke gelöscht');return;}
   if(a==='unlearn'){const k=el.dataset.k;delete us.learned.off[k];if(k==='weit')us.learned.cnt.weit=[];else us.learned.cnt[k]=0;saveU();rerender();toast('Rückgängig gemacht');return;}
@@ -2164,9 +2206,9 @@ async function importCal(f){try{const t=await readFile(f);const R=icsBlocks(t);c
 
 function init(){
   Store.init();
-  S.mode=Store.flag('mode')||'demo';S.pid=Store.flag('pid_'+S.mode)||'labg-bt';S.sel=(Store.flag('sel_'+S.mode)||[]).filter(x=>personById(x));S.all=!!Store.flag('all_'+S.mode);
-  document.body.classList.toggle('demo',S.mode==='demo');document.body.classList.toggle('live',S.mode==='live');
-  $$('.mode button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===S.mode)));
+  S.mode=Store.flag('mode')||'live';S.pid=Store.flag('pid_'+S.mode)||'labg-bt';S.sel=(Store.flag('sel_'+S.mode)||[]).filter(x=>personById(x));S.all=!!Store.flag('all_'+S.mode);
+  document.body.classList.toggle('demo',S.mode==='demo');document.body.classList.toggle('live',S.mode==='live');$('#demoBar').hidden=S.mode!=='demo';
+  {const lg=window.VS_CONFIG&&VS_CONFIG.logoUrl;if(lg){const im=$('#heroLogo');im.onload=()=>{im.hidden=false;};im.alt=(window.VS_CONFIG.logoAlt||'Logo');im.src=lg;}}
   if(S.mode==='live')$('#heroLead').textContent='Live-Pilot mit echten, öffentlichen Terminen aus der Steiermark. Automatisch gefunden, getaggt und begründet.';
   fillWho();rebuildEvents();heroMap();
   $('#fRange').innerHTML=[['this','Diese Woche'],['next','Nächste Woche'],['later','Woche 3 bis 6'],['6w','Nächste 6 Wochen'],['all','Gesamter Datenstand']].map(([k,l])=>'<option value="'+k+'"'+(k===S.f.range?' selected':'')+'>'+l+'</option>').join('');
@@ -2175,13 +2217,12 @@ function init(){
   $('#fTopics').innerHTML=Object.entries(TOPICS).map(([k,v])=>'<button class="tchip" data-t="'+k+'" aria-pressed="false">'+esc(v)+'</button>').join('');
   $('#tabs').addEventListener('click',e=>{const b=e.target.closest('button');if(b)setView(b.dataset.v);});
   $('#tabs').addEventListener('keydown',e=>{const bs=$$('#tabs button');const i=bs.indexOf(document.activeElement);if(i<0)return;if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();const j=(i+(e.key==='ArrowRight'?1:-1)+bs.length)%bs.length;bs[j].focus();setView(bs[j].dataset.v);}});
-  $$('.mode button').forEach(b=>b.addEventListener('click',()=>setMode(b.dataset.mode)));
   $('#wkBtn').addEventListener('click',()=>setWk(!S.wk));
+  document.addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target&&(e.target.id==='srcUrl'||e.target.id==='srcName')){e.preventDefault();act('srcadd',null,null);}});
   $('#scanBtn').addEventListener('click',openScan);
   $('#briefBtn').addEventListener('click',()=>{openBrief(false);Store.log('brief_btn');});
   $('#addBtn').addEventListener('click',openMailIn);
-  $('#adminBtn').addEventListener('click',()=>setView(S.view==='admin'?(S.prevView||'fuerdich'):'admin'));
-  $('#adminClose').addEventListener('click',()=>setView(S.prevView||'fuerdich'));
+    $('#adminClose').addEventListener('click',()=>setView(S.prevView||'fuerdich'));
   $('#atabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;S.admin=b.dataset.a;renderAdmin();});
   $('#mapBack').addEventListener('click',()=>zoomTo(null));
   $('#mapLow').addEventListener('change',()=>renderKarte());
@@ -2221,6 +2262,9 @@ function init(){
     if(t.id==='mPast'){S.pastOn=t.checked;renderMeine();return;}
     if(t.id==='bZhz'){us.set.zHz=+t.value;saveU();renderFuer();toast('Zusagen der nächsten '+t.value+' Tage');return;}
     if(t.id==='sZhz'){us.set.zHz=+t.value;saveU();toast('Briefing zeigt Zusagen der nächsten '+t.value+' Tage');return;}
+    if(t.dataset&&t.dataset.src){const sc=cleanSrcCfg(Store.src);const k=t.dataset.src;sc.off=sc.off.filter(x=>x!==k);if(!t.checked)sc.off.push(k);
+      Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':(t.checked?'Wird wieder durchsucht':'Wird nicht mehr durchsucht')+', ab dem nächsten Suchlauf'+(r==='local'?' (Demo)':''));});Store.log('src_toggle',null,null,k+(t.checked?' an':' aus'));return;}
+    if(t.id==='sDemo'){setMode(t.checked?'demo':'live');if(S.view==='einst')renderEinst();return;}
     if(t.id==='sRhy'){Store.cfgSave({rhythm:t.value}).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'Suchrhythmus gespeichert'+(r==='local'?' (Demo)':''));});Store.log('set_rhythm',null,null,t.value);return;}
     if(t.id==='sCal'){us.set.cal.on=t.checked;saveU();renderEinst();toast(t.checked?'Kalender-Abgleich an':'Kalender-Abgleich aus');}
     if(t.id==='calFile'&&t.files[0])importCal(t.files[0]);
