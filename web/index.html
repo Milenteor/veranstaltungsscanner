@@ -1391,6 +1391,7 @@ function srcHost(v){try{return new URL(v).hostname.replace(/^www\./,'');}catch(e
 function cleanSrcCfg(c){c=c||{};const known=SRC_BUILTIN.map(x=>x[0]);const off=[...new Set((Array.isArray(c.off)?c.off:[]).filter(k=>known.includes(k)))];
   const add=[];(Array.isArray(c.add)?c.add:[]).forEach(x=>{if(!x||add.length>=30)return;const v=srcUrlOk(x.url);if(!v||add.some(y=>y.url===v))return;add.push({name:String(x.name||'').replace(/\s+/g,' ').trim().slice(0,80)||srcHost(v),url:v});});
   return {off,add};}
+function locNote(r){return r==='local'?(S.mode==='demo'?' (Demo)':' (nur auf diesem Gerät, die Datenbank ist noch nicht verbunden)'):'';}
 function renderEinst(){
   const us=U(),p=P(),s=us.set;const W=windows();
   const ch=s.brief;const pop=ch==='popup'||ch==='both',mail=ch==='mail'||ch==='both';
@@ -2179,7 +2180,7 @@ function act(a,id,el){const us=U();const ev=id?evById(id):null;
   if(a==='demooff'){setMode('live');return;}
   if(a==='srcadd'){const ni=$('#srcName'),ui=$('#srcUrl');if(!ui)return;const v=srcUrlOk(ui.value);if(!v){toast('Bitte eine gültige Adresse eingeben');ui.focus();return;}
     const sc=cleanSrcCfg(Store.src);if(sc.add.some(x=>x.url===v)||SRC_BUILTIN.some(x=>x[2]===v)){toast('Diese Seite ist schon dabei');return;}
-    sc.add.push({name:(ni&&ni.value.trim())||srcHost(v),url:v});Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'Seite hinzugefügt, gilt ab dem nächsten Suchlauf'+(r==='local'?' (Demo)':''));});Store.log('src_add',null,null,srcHost(v));return;}
+    sc.add.push({name:(ni&&ni.value.trim())||srcHost(v),url:v});Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'Seite hinzugefügt, gilt ab dem nächsten Suchlauf'+locNote(r));});Store.log('src_add',null,null,srcHost(v));return;}
   if(a==='srcdel'){const sc=cleanSrcCfg(Store.src);const i=+el.dataset.i;const x=sc.add[i];if(!x)return;sc.add.splice(i,1);
     Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'„'+x.name+'“ entfernt');});Store.log('src_del',null,null,srcHost(x.url));return;}
   if(a==='wipe'){Store.wipe(S.mode,S.pid);closeDlg();rerender();toast('Deine Daten für diese Rolle sind gelöscht');return;}
@@ -2263,9 +2264,9 @@ function init(){
     if(t.id==='bZhz'){us.set.zHz=+t.value;saveU();renderFuer();toast('Zusagen der nächsten '+t.value+' Tage');return;}
     if(t.id==='sZhz'){us.set.zHz=+t.value;saveU();toast('Briefing zeigt Zusagen der nächsten '+t.value+' Tage');return;}
     if(t.dataset&&t.dataset.src){const sc=cleanSrcCfg(Store.src);const k=t.dataset.src;sc.off=sc.off.filter(x=>x!==k);if(!t.checked)sc.off.push(k);
-      Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':(t.checked?'Wird wieder durchsucht':'Wird nicht mehr durchsucht')+', ab dem nächsten Suchlauf'+(r==='local'?' (Demo)':''));});Store.log('src_toggle',null,null,k+(t.checked?' an':' aus'));return;}
+      Store.srcSave(sc).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':(t.checked?'Wird wieder durchsucht':'Wird nicht mehr durchsucht')+', ab dem nächsten Suchlauf'+locNote(r));});Store.log('src_toggle',null,null,k+(t.checked?' an':' aus'));return;}
     if(t.id==='sDemo'){setMode(t.checked?'demo':'live');if(S.view==='einst')renderEinst();return;}
-    if(t.id==='sRhy'){Store.cfgSave({rhythm:t.value}).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'Suchrhythmus gespeichert'+(r==='local'?' (Demo)':''));});Store.log('set_rhythm',null,null,t.value);return;}
+    if(t.id==='sRhy'){Store.cfgSave({rhythm:t.value}).then(r=>{renderEinst();toast(r==='denied'?'Nur wer die App verwaltet, kann das ändern':'Suchrhythmus gespeichert'+locNote(r));});Store.log('set_rhythm',null,null,t.value);return;}
     if(t.id==='sCal'){us.set.cal.on=t.checked;saveU();renderEinst();toast(t.checked?'Kalender-Abgleich an':'Kalender-Abgleich aus');}
     if(t.id==='calFile'&&t.files[0])importCal(t.files[0]);
     if(t.id==='miFile'&&t.files[0]){readFile(t.files[0]).then(x=>{$('#miText').value=/\.eml$/i.test(t.files[0].name)?'':x.slice(0,20000);miRun(x,t.files[0].name);}).catch(()=>toast('Datei nicht lesbar'));}
